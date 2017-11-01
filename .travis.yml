@@ -1,0 +1,6 @@
+lenguaje: ruby
+script:
+  - cucumber
+  - rspec
+
+  
