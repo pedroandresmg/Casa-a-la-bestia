@@ -6,3 +6,6 @@ D, [2017-11-04T16:32:02.348870 #6304] DEBUG -- : REQUESTING PAGE: GET / with {} 
 D, [2017-11-04T16:32:45.461808 #6333] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
 D, [2017-11-04T16:32:45.605970 #6333] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
 D, [2017-11-04T16:32:45.628654 #6333] DEBUG -- : REQUESTING PAGE: GET /game with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-04T16:40:05.432191 #6498] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-04T16:40:05.469171 #6498] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-04T16:40:05.474819 #6498] DEBUG -- : REQUESTING PAGE: GET /game with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
