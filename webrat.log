@@ -1,0 +1,8 @@
+# Logfile created on 2017-11-04 16:00:21 -0400 by logger.rb/56815
+D, [2017-11-04T16:00:21.193687 #4777] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-04T16:01:07.946865 #4797] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-04T16:09:58.155892 #5291] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-04T16:32:02.348870 #6304] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-04T16:32:45.461808 #6333] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-04T16:32:45.605970 #6333] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-04T16:32:45.628654 #6333] DEBUG -- : REQUESTING PAGE: GET /game with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}

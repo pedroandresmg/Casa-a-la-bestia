@@ -1,5 +1,15 @@
 require 'sinatra'
 
 get '/' do
-  "Hello World"
+  erb :menu 
 end
+
+get '/gameOption' do
+  erb :opcionJuego 
+end
+
+
+get '/game' do
+  erb :juego
+end
+
