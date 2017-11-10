@@ -1,5 +1,7 @@
 require 'sinatra'
 
+$message
+$comando
 get '/' do
   erb :menu 
 end
@@ -10,7 +12,12 @@ end
 
 
 get '/game' do
-  @statusMessage="Elige una jugada: moverse 'M', lanzar flecha 'F' o usar sprite 'S'."
+  $message="Elige una jugada: moverse 'M', lanzar flecha 'F' o usar sprite 'S'."
+  erb :juego
+end
+
+post '/game' do
+  $comando= params[:instruccion].to_s
   erb :juego
 end
 

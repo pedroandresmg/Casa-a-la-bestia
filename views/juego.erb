@@ -1,5 +1,10 @@
 ¡Bienvenido a Cazar al monstruo!, ¡Qué inicie el juego!
 <br>
+<div style="text-align:right;">   
+<form action="/" method="get">
+  <button type="submit" value="salir">Salir de juego</button>
+</form>
+</div>
 
 Usando el Mapa predeterminado
 <br>
@@ -7,11 +12,13 @@ Usando el Mapa predeterminado
 Las cavernas a las que puedes moverte son: Oeste 'O', Sur 'S'
 <br>
 
-<%=@statusMessage%>
+<%=$message%>
 <br>
 
-<div style="text-align:right;">   
-<form action="/" method="get">
-  <button type="submit" value="salir">Salir de juego</button>
+<%=$comando%>
+<br>
+<form action="/game" method="post">
+  <input type="text" name="instruccion" onblur="this.focus()" autofocus><br>
+  <input type="submit" value="confirmarInstruccion" style="position: absolute; left: -9999px"></input>
 </form>
-</div>
+
