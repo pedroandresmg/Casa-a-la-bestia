@@ -1,12 +1,12 @@
 class Cavern
 
 
-	def initialize(active, westWall, northWall, eastWall, southWall)
+	def initialize(active, leftAccess, upAccess, rightAccess, downAccess)
 		@itsActive = active
-		@westWall = westWall
-		@northWall = northWall
-		@eastWall = eastWall
-		@southWall = southWall
+		@leftAccess = leftAccess
+		@upAccess = upAccess
+		@rightAccess = rightAccess
+		@downAccess = downAccess
 		@pitAlert = false
 		@batAltert = false
 		@beastAlert = false
@@ -18,10 +18,10 @@ class Cavern
 
 	def initialize(active)
 		@itsActive = active
-		@westWall = true
-		@northWall = true
-		@eastWall = true
-		@southWall = true
+		@leftAccess = false
+		@upAccess = false
+		@rightAccess = false
+		@downAccess = false
 		@pitAlert = false
 		@batAltert = false
 		@beastAlert = false
@@ -30,4 +30,96 @@ class Cavern
 		@hasAnSpray = false
 
 	end
+
+
+	def getItsActive
+		return @itsActive
+	end
+
+	def getLeftAccess
+		return @leftAccess
+	end
+
+	def getRightAccess
+		return @rightAccess
+	end
+
+	def getUpAccess
+		return @upAccess
+	end
+
+	def getDownAccess
+		return @downAccess
+	end
+
+	def getPitAlert
+		return @pitAlert
+	end
+
+	def getBatAlert
+		return @batAltert
+	end
+
+	def getBeastAlert
+		return @beastAlert
+	end
+
+	def getHasAPit
+		return @hasAPit
+	end
+
+	def getHasAnArrow
+		return @hasAnArrow
+	end
+
+	def getHasAnSpray
+		return @hasAnSpray
+	end
+
+
+	def setItsActive=(w)
+		@itsActive = w
+	end
+
+	def setLeftAccess=(w)
+		@leftAccess = w		
+	end
+
+	def setUpAccess=(w)
+		@upAccess = w 
+	end
+
+	def setRightAccess=(w)
+		@rightAccess = w 
+	end
+
+	def setDownAccess=(w)
+		@downAccess = w 
+	end
+
+	def setPitAlert=(w)
+		@pitAlert = w 
+	end
+
+	def setBatAlert=(w)
+		@batAltert = w 
+	end
+
+	def setBeastAlert=(w)
+		@beastAlert = w 
+	end
+
+	def setHasAPit=(w)
+		@hasAPit = w 
+	end
+
+	def setHasAnArrow=(w)
+		@hasAnArrow = w 
+	end
+
+	def setHasAnSpray=(w)
+		@hasAnSpray = w 
+	end
+
+
 end
