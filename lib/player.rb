@@ -53,11 +53,11 @@ class Player
 	end
 
 	def setPos_y=(w)
-		@pos_y =w
+		@pos_y=w
 	end
 
-	def setArrows =(w)
-		@arrows =w
+	def setArrows=(w)
+		@arrows=w
 	end
 
 	def setSpray=(w)
@@ -75,5 +75,5 @@ class Player
 	def setFeelWind=(w)
 		@feelWind=w
 	end 
-	
+
 end
