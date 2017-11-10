@@ -3,7 +3,8 @@ require './lib/cavern'
 
 
 class Caverns
-
+#@cavern_y_x=cavern.new(activa,izquierda,arriba,derecha,abajo---hay pared)
+			
 	def initialize
 		@cavern_0_0=Cavern.new(false)
 		@cavern_0_1=Cavern.new(true,true,true,true,false)
