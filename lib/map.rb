@@ -12,4 +12,22 @@ class Map
 
 	end
 
+	
+	def getCaverns
+		return @caverns
+	end
+
+	def getPlayer
+		return @player
+	end
+
+	def setCaverns=(w)
+		@caverns = w 
+	end
+
+	def setPlayer=(w)
+		@player = w 
+	end
+
+
 end
