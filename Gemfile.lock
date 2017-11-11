@@ -33,8 +33,6 @@ GEM
     nokogiri (1.8.1)
       mini_portile2 (~> 2.3.0)
     nokogiri (1.8.1-java)
-    puma (3.10.0)
-    puma (3.10.0-java)
     rack (2.0.3)
     rack-protection (2.0.0)
       rack
@@ -79,7 +77,6 @@ PLATFORMS
 
 DEPENDENCIES
   cucumber
-  puma
   rack-test
   rspec
   simplecov
