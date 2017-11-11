@@ -15,7 +15,6 @@ get '/gameOption' do
   erb :opcionJuego 
 end
 
-
 get '/game' do
   $posPlayer = "Estas en la caverna " + partida.reportPosicionPlayer.to_s
   $messageCaverns = "Tienes acceso a las cavernas del: " + partida.reportPosicionesAMoverse
