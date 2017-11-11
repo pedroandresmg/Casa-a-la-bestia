@@ -7,7 +7,7 @@ class Map
 
 	def initialize()
 		
-		@player = Player.new(3,3)
+		@player = Player.new(2,3)
 
 		@cavern_0_0=Cavern.new(false,1,false,false,false,false)
 		@cavern_0_1=Cavern.new(true,2,false,false,false,true)  
