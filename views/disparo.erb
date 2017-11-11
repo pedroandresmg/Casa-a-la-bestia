@@ -1,0 +1,32 @@
+¡Bienvenido a Cazar al monstruo!, ¡Qué inicie el juego!
+<br>
+<div style="text-align:right;">   
+<form action="/" method="get">
+  <button type="submit" value="salir">Salir de juego</button>
+</form>
+</div>
+
+Usando el Mapa predeterminado
+<br>
+<br> >
+<%=$posPlayer%>
+<br>
+<br> >
+<%=$messageCaverns%>
+<br>
+<br> >
+<%=$message%>
+<br>
+<br> >
+Jugada de lanzamiento de flecha 
+<br>
+<br> >
+<%=$mensaje%>
+<p style = "color: red;">
+<%=$messageError%>
+</p>
+<form action="/disparo" method="post">
+  <input type="text" name="instruccion" onblur="this.focus()" autofocus><br>
+  <input type="submit" value="confirmarInstruccion" style="position: absolute; left: -9999px"></input>
+</form>
+
