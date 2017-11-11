@@ -16,10 +16,16 @@ Usando el Mapa predeterminado
 <br>
 <br> >
 <%=$message%>
+<br>
+<br> >
+Jugada de Movida 
+<br>
+<br> >
+<%=$mensaje%>
 <p style = "color: red;">
 <%=$messageError%>
 </p>
-<form action="/game" method="post">
+<form action="/movida" method="post">
   <input type="text" name="instruccion" onblur="this.focus()" autofocus><br>
   <input type="submit" value="confirmarInstruccion" style="position: absolute; left: -9999px"></input>
 </form>

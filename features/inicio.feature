@@ -13,3 +13,16 @@ Scenario:
 		And presiono el link "1.- Usar el Mapa Predeterminado"
 		Then  deberia mostrar "¡Bienvenido a Cazar al monstruo!, ¡Qué inicie el juego!"	
 		And deberia mostrar "Usando el Mapa predeterminado."	
+
+
+Scenario: 
+		Given visito la pagina de inicio
+		And presiono el link "1.- Jugar"
+		And presiono el link "1.- Usar el Mapa Predeterminado"
+		And deberia mostrar "¡Bienvenido a Cazar al monstruo!, ¡Qué inicie el juego!"	
+		And deberia mostrar "Usando el Mapa predeterminado."
+		Then deberia mostrar "Estas en la caverna 20"	
+
+
+
+

@@ -1,8 +1,9 @@
 class Cavern
 
 
-	def initialize(active, leftAccess, upAccess, rightAccess, downAccess)
+	def initialize(active, numberOfCavern, leftAccess, upAccess, rightAccess, downAccess)
 		@itsActive = active
+		@numberOfCavern = numberOfCavern
 		@leftAccess = leftAccess
 		@upAccess = upAccess
 		@rightAccess = rightAccess
@@ -16,24 +17,15 @@ class Cavern
 
 	end
 
-	def initialize(active)
-		@itsActive = active
-		@leftAccess = false
-		@upAccess = false
-		@rightAccess = false
-		@downAccess = false
-		@pitAlert = false
-		@batAltert = false
-		@beastAlert = false
-		@hasAPit = false
-		@hasAnArrow = false
-		@hasAnSpray = false
-
-	end
+	
 
 
 	def getItsActive
 		return @itsActive
+	end
+
+	def getNumberOfCavern
+		return @numberOfCavern
 	end
 
 	def getLeftAccess
@@ -79,6 +71,10 @@ class Cavern
 
 	def setItsActive=(w)
 		@itsActive = w
+	end
+
+	def setNumberOfCavern=(w)
+		@numberOfCavern = w
 	end
 
 	def setLeftAccess=(w)

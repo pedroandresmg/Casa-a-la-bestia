@@ -76,4 +76,19 @@ class Player
 		@feelWind=w
 	end 
 
+	def moveToNorth
+		@pos_x = @pos_x - 1
+	end
+
+	def moveToSouth
+		@pos_x = @pos_x + 1
+	end
+
+	def moveToWest
+		@pos_y = @pos_y + 1
+	end
+
+	def moveToEast
+		@pos_y = @pos_y - 1
+	end
 end
