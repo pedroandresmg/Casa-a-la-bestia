@@ -1,0 +1,48 @@
+Usando Mapa predeterminado
+<div style="text-align:right;">   
+<form action="/" method="get">
+  <button type="submit" value="salir">Salir de juego</button>
+</form>
+</div>
+<h2> Caza a la bestia </h2>
+<h4> Jugada: </h4>
+<form action="/optionPlay" method="post">
+  <input type="radio" name="jugada" value="move" checked> Mover<br>
+  <input type="radio" name="jugada" value="arrow"> Lanzar Flecha<br>
+  <input type="radio" name="jugada" value="spray"> Usar Spray
+
+  <% if $hasAccessToNorth == true %>
+  		<button type="submit" name="puntoCardinal" value="norte" style="position: absolute; top: 90px; left: 707px;">Norte</button><br>
+  <% else %>
+  		<button type="submit" name="puntoCardinal" value="norte" disabled style="position: absolute; top: 90px; left: 707px;">Norte</button><br>
+  <% end %>
+  
+
+  <% if $hasAccessToEast == true %>
+  		<button type="submit" name="puntoCardinal" value="este" style="position: absolute; top: 200px; left: 840px;">Este</button>
+  <% else %>
+  		<button type="submit" name="puntoCardinal" value="este" disabled style="position: absolute; top: 200px; left: 840px;">Este</button>
+  <% end %>
+
+   <img src="https://i.pinimg.com/originals/be/20/a3/be20a344ff08fcb8d77c53df37385d2c.jpg" style="position: absolute; top: 120px; left: 650px;"> 
+
+  <% if $hasAccessToWest == true %>
+  		<button type="submit" name="puntoCardinal" value="oeste" style="position: absolute; top: 200px; left: 580px;">Oeste</button>
+  <% else %>
+  		<button type="submit" name="puntoCardinal" value="oeste" disabled style="position: absolute; top: 200px; left: 580px;">Oeste</button>
+  <% end %>
+
+
+  <% if $hasAccessToSouth == true %>
+  		<button type="submit" name="puntoCardinal" value="sur" style="position: absolute; top: 305px; left: 717px;">Sur</button>
+  <% else %>
+  		<button type="submit" name="puntoCardinal" value="sur" disabled style="position: absolute; top: 305px; left: 717px;">Sur</button>
+  <% end %>
+  
+</form>
+
+<br>
+<br> >
+<%=$posPlayer%>
+<br>
+<br> 

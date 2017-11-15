@@ -1,5 +1,4 @@
 require './lib/cavern'
-require './lib/caverns'
 require './lib/player'
 
 class Map
@@ -90,23 +89,7 @@ class Map
 		return @caverns[@player.getPos_x][@player.getPos_y].getNumberOfCavern
 	end
 
-	def reportPosicionesAMoverse
-		@resp = ""
-		if (@caverns[@player.getPos_x][@player.getPos_y].getUpAccess == true)
-			@resp = @resp + "Norte (N) "
-		end
-		if (@caverns[@player.getPos_x][@player.getPos_y].getDownAccess == true)
-			@resp = @resp + "Sur (S) "
-		end
-		if (@caverns[@player.getPos_x][@player.getPos_y].getLeftAccess == true)
-			@resp = @resp + "Este (E) "
-		end
-		if (@caverns[@player.getPos_x][@player.getPos_y].getRightAccess == true)
-			@resp = @resp + "Oeste (O) "
-		end
-		return @resp
-	end
-
+	
 	def hasAccessToNorth
 		return @caverns[@player.getPos_x][@player.getPos_y].getUpAccess
 	end
@@ -116,11 +99,11 @@ class Map
 	end
 
 	def hasAccessToEast
-		return @caverns[@player.getPos_x][@player.getPos_y].getLeftAccess
+		return @caverns[@player.getPos_x][@player.getPos_y].getRightAccess
 	end
 
 	def hasAccessToWest
-		return @caverns[@player.getPos_x][@player.getPos_y].getRightAccess
+		return @caverns[@player.getPos_x][@player.getPos_y].getLeftAccess
 	end
 
 	def moveToNorth

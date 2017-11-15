@@ -85,10 +85,10 @@ class Player
 	end
 
 	def moveToWest
-		@pos_y = @pos_y + 1
+		@pos_y = @pos_y - 1
 	end
 
 	def moveToEast
-		@pos_y = @pos_y - 1
+		@pos_y = @pos_y + 1
 	end
 end

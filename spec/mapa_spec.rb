@@ -3,23 +3,54 @@ require './lib/map'
 describe Map do
 
 	before(:each) do
+		@player = Player.new(4,3)
 		@game = Map.new()
+		@game.setPlayer = @player
 	end
 
-	it "shoud show que estas en la caverna 20 " do
-		expect(@game.reportPosicionPlayer()).to eq(20)
-	end
-
-	it "shoud show que tienes aceso al Sur y Este " do
-		expect(@game.reportPosicionesAMoverse()).to eq('Sur (S) Este (E) ')
-	end
-
-	it "shoud show que tienes aceso al Sur y Este " do
-		@game.getPlayer.setPos_x = 4
-		@game.getPlayer.setPos_y = 3
-		expect(@game.reportPosicionesAMoverse()).to eq('Norte (N) Sur (S) Este (E) Oeste (O) ')
+	it "shoud show that you are on cavern 36 " do
+		expect(@game.reportPosicionPlayer()).to eq(36)
 	end
 
 
+	it "shoud show that you have access to the north " do
+		expect(@game.hasAccessToNorth()).to eq(true)
+	end
+
+	it "shoud show that you have access to the east " do
+		expect(@game.hasAccessToEast()).to eq(true)
+	end
+
+	it "shoud show that you have access to the west " do
+		expect(@game.hasAccessToWest()).to eq(true)
+	end
+
+	it "shoud show that you have access to the south " do
+		expect(@game.hasAccessToSouth()).to eq(true)
+	end
+
+	it "shoud the player move to the north " do
+		@game.moveToNorth
+		expect(@game.getPlayer.getPos_x()).to eq(3)
+	end
+
+	it "shoud the player move to the east " do
+		@game.moveToEast
+		expect(@game.getPlayer.getPos_y()).to eq(4)
+	end
+
+
+	it "shoud the player move to the west " do
+		@game.moveToWest
+		expect(@game.getPlayer.getPos_y()).to eq(2)
+	end
+
+
+	it "shoud the player move to the south " do
+		@game.moveToSouth
+		expect(@game.getPlayer.getPos_x()).to eq(5)
+	end
+	
+	
 
 end
