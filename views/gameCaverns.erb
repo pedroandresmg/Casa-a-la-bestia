@@ -1,7 +1,8 @@
 Usando Mapa predeterminado
+<%=$jugadaseleccionada%>
 <div style="text-align:right;">   
 <form action="/" method="get">
-  <button type="submit" value="salir">Salir de juego</button>
+  <button type="submit" value="salir" class="button">Salir del juego</button>
 </form>
 </div>
 <h2> Caza a la bestia </h2>
@@ -12,31 +13,31 @@ Usando Mapa predeterminado
   <input type="radio" name="jugada" value="spray"> Usar Spray
 
   <% if $hasAccessToNorth == true %>
-  		<button type="submit" name="puntoCardinal" value="norte" style="position: absolute; top: 90px; left: 707px;">Norte</button><br>
+  		<button type="submit" name="puntoCardinal" value="norte" class="button buttonNorte">Norte</button><br>
   <% else %>
-  		<button type="submit" name="puntoCardinal" value="norte" disabled style="position: absolute; top: 90px; left: 707px;">Norte</button><br>
+  		<button type="submit" name="puntoCardinal" value="norte" disabled class="button buttonNorte2">Norte</button><br>
   <% end %>
   
 
   <% if $hasAccessToEast == true %>
-  		<button type="submit" name="puntoCardinal" value="este" style="position: absolute; top: 200px; left: 840px;">Este</button>
+  		<button type="submit" name="puntoCardinal" value="este" class="button buttonEste">Este</button>
   <% else %>
-  		<button type="submit" name="puntoCardinal" value="este" disabled style="position: absolute; top: 200px; left: 840px;">Este</button>
+  		<button type="submit" name="puntoCardinal" value="este" disabled class="button buttonEste2">Este</button>
   <% end %>
 
    <img src="https://i.pinimg.com/originals/be/20/a3/be20a344ff08fcb8d77c53df37385d2c.jpg" style="position: absolute; top: 120px; left: 650px;"> 
 
   <% if $hasAccessToWest == true %>
-  		<button type="submit" name="puntoCardinal" value="oeste" style="position: absolute; top: 200px; left: 580px;">Oeste</button>
+  		<button type="submit" name="puntoCardinal" value="oeste"  class="button buttonOeste">Oeste</button>
   <% else %>
-  		<button type="submit" name="puntoCardinal" value="oeste" disabled style="position: absolute; top: 200px; left: 580px;">Oeste</button>
+  		<button type="submit" name="puntoCardinal" value="oeste" disabled  class="button buttonOeste2">Oeste</button>
   <% end %>
 
 
   <% if $hasAccessToSouth == true %>
-  		<button type="submit" name="puntoCardinal" value="sur" style="position: absolute; top: 305px; left: 717px;">Sur</button>
+  		<button type="submit" name="puntoCardinal" value="sur" class="button buttonSur">Sur</button>
   <% else %>
-  		<button type="submit" name="puntoCardinal" value="sur" disabled style="position: absolute; top: 305px; left: 717px;">Sur</button>
+  		<button type="submit" name="puntoCardinal" value="sur" disabled  class="button buttonSur2">Sur</button>
   <% end %>
   
 </form>
@@ -46,3 +47,54 @@ Usando Mapa predeterminado
 <%=$posPlayer%>
 <br>
 <br> 
+<style>
+.button {
+    font-size:19px;
+    font-weight: bold;
+    cursor: pointer;
+  	text-align: center;
+   	border-radius: 100%;
+    height:65px;
+    width:95px; 
+    background-color:#87CEEB;
+  	box-shadow: 0 9px #AAA;
+}
+
+.button:active {
+  background-color: #32CD32;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.buttonNorte {
+position: absolute; top: 45px; left: 695px;
+}
+
+.buttonSur {
+position: absolute; top: 305px; left: 695px;
+}
+
+.buttonEste {
+position: absolute; top: 180px; left: 840px;
+}
+
+.buttonOeste {
+position: absolute; top: 180px; left: 550px;
+}
+
+.buttonNorte2 {
+position: absolute; top: 45px; left: 695px;background-color: #696969;
+}
+
+.buttonSur2 {
+position: absolute; top: 305px; left: 695px;background-color: #696969;
+}
+
+.buttonEste2 {
+position: absolute; top: 180px; left: 840px;background-color: #696969;
+}
+
+.buttonOeste2 {
+position: absolute; top: 180px; left: 550px;background-color: #696969;
+}
+</style>
