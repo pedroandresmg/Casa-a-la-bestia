@@ -12,7 +12,7 @@ class Cavern
 		@batAltert = false
 		@beastAlert = false
 		@hasAPit = false
-		@hasAnArrow = false
+		@Arrows = 0
 		@hasAnSpray = false
 
 	end
@@ -60,8 +60,8 @@ class Cavern
 		return @hasAPit
 	end
 
-	def getHasAnArrow
-		return @hasAnArrow
+	def getArrowsCavern
+		return @Arrows
 	end
 
 	def getHasAnSpray
@@ -109,8 +109,8 @@ class Cavern
 		@hasAPit = w 
 	end
 
-	def setHasAnArrow=(w)
-		@hasAnArrow = w 
+	def setArrowsCavern=(w)
+		@Arrows = w 
 	end
 
 	def setHasAnSpray=(w)

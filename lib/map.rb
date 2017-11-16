@@ -122,5 +122,37 @@ class Map
 		@player.moveToEast
 	end
 
+	def collectArrow 
+		@player.setArrows =@player.getArrows.to_i  + @caverns[@player.getPos_x][@player.getPos_y].getArrowsCavern.to_i
+		@caverns[@player.getPos_x][@player.getPos_y].setArrowsCavern = 0
+	end
+
+	def shootToNorth
+		if(@player.validateShootArrow) 
+			@player.setArrows= @player.getArrows.to_i - 1 
+			@caverns[@player.getPos_x-1][@player.getPos_y].setArrowsCavern= (@caverns[@player.getPos_x-1][@player.getPos_y].getArrowsCavern.to_i+1) 
+		end
+	end
+
+	def shootToSouth
+		if(@player.validateShootArrow) 
+			@player.setArrows= @player.getArrows.to_i - 1 
+			@caverns[@player.getPos_x+1][@player.getPos_y].setArrowsCavern= (@caverns[@player.getPos_x+1][@player.getPos_y].getArrowsCavern.to_i+1)
+		end
+	end
+
+	def shootToWest
+		if(@player.validateShootArrow) 
+			@player.setArrows= @player.getArrows.to_i - 1 
+			@caverns[@player.getPos_x][@player.getPos_y-1].setArrowsCavern= (@caverns[@player.getPos_x][@player.getPos_y-1].getArrowsCavern.to_i+1)
+		end
+	end
+
+	def shootToEast
+		if(@player.validateShootArrow)
+			@player.setArrows= @player.getArrows.to_i - 1 
+			@caverns[@player.getPos_x][@player.getPos_y+1].setArrowsCavern= (@caverns[@player.getPos_x][@player.getPos_y+1].getArrowsCavern.to_i+1)
+		end
+	end 
 
 end

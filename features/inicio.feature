@@ -5,7 +5,7 @@ Scenario:
 		Given visito la pagina de inicio
 		And presiono el link "1.- Jugar"
 		And presiono el link "1.- Usar el Mapa Predeterminado"
-		Then  deberia mostrar "Caza a la bestia"	
+		Then  deberia mostrar "Caza al monstruo"	
 
 
 

@@ -1,17 +1,19 @@
-Usando Mapa predeterminado
-<%=$jugadaseleccionada%>
-<div style="text-align:right;">   
 <form action="/" method="get">
-  <button type="submit" value="salir" class="button">Salir del juego</button>
+  <button type="submit" value="salir" class="button" style="vertical-align:top;float:right;">
+  Salir del juego</button>
 </form>
-</div>
-<h2> Caza a la bestia </h2>
+Usando Mapa predeterminado 
+
+<h2> Caza al monstruo</h2>
 <h4> Jugada: </h4>
 <form action="/optionPlay" method="post">
-  <input type="radio" name="jugada" value="move" checked> Mover<br>
-  <input type="radio" name="jugada" value="arrow"> Lanzar Flecha<br>
-  <input type="radio" name="jugada" value="spray"> Usar Spray
-
+  <input type="radio" id="jugadaMover" name="jugada" value="move" checked onclick="checkMover()" class="radio">
+  <label style="font-size:19px;font-weight: bold;">Mover</label><br>
+  <input type="radio" id="jugadaFlecha" name="jugada" value="arrow" onclick="checkFlecha()" class="radio">
+  <label style="font-size:19px;font-weight: bold;">Lanzar Flecha</label><br>
+  <input type="radio" id="jugadaSpray" name="jugada" value="spray" onclick="checkSpray()" class="radio">
+  <label style="font-size:19px;font-weight: bold;">Usar Spray</label>
+  <input type="hidden" id=play name=jugada>
   <% if $hasAccessToNorth == true %>
   		<button type="submit" name="puntoCardinal" value="norte" class="button buttonNorte">Norte</button><br>
   <% else %>
@@ -43,11 +45,62 @@ Usando Mapa predeterminado
 </form>
 
 <br>
-<br> >
+<br>
 <%=$posPlayer%>
 <br>
+<%=$arrowPlayer%>
 <br> 
+
+
+   
+<script> 
+function checkMover()
+{
+  radioMover= document.getElementById("jugadaMover"); 
+  radioMover.checked=true;
+  document.getElementById("play").innerHTML =getPlayOption();
+}
+
+function checkFlecha()
+{
+  radioFlecha=document.getElementById("jugadaFlecha");
+  radioFlecha.checked=true;
+  document.getElementById("play").innerHTML =getPlayOption();
+}
+
+function checkSpray()
+{
+  radioSpray=document.getElementById("jugadaSpray");
+  radioSpray.checked=true;
+  document.getElementById("play").innerHTML =getPlayOption();
+}
+
+function getPlayOption()
+{ 
+  playOption=document.getElementById("play").value;
+  radioMover =document.getElementById("jugadaMover");
+  radioFlecha=document.getElementById("jugadaFlecha");
+  radioSpray= document.getElementById("jugadaSpray");
+  if (radioMover.checked) {
+    playOption = radioMover.value;
+  }
+  else if (radioFlecha.checked) {
+    playOption = radioFlecha.value;
+  }
+  else if (radioSpray.checked) {
+    playOption = radioSpray.value;
+  }  
+  document.getElementById("play").value=playOption;  
+} 
+</script> 
+
 <style>
+ .radio{ 
+    height: 30px;
+    width: 30px;  
+    margin-bottom: 15px;
+    cursor: pointer; vertical-align: middle; 
+}
 .button {
     font-size:19px;
     font-weight: bold;

@@ -91,4 +91,8 @@ class Player
 	def moveToEast
 		@pos_y = @pos_y + 1
 	end
+
+	def validateShootArrow
+		return @arrows>0
+	end
 end
