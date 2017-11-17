@@ -18,6 +18,7 @@ end
 
 
 get '/gameCaverns' do
+	$valjugada=""
 	$posPlayer = "Estas en la caverna " + $partida.reportPosicionPlayer.to_s
 	player=$partida.getPlayer
 	$arrowPlayer="Numero de flechas: "+player.getArrows.to_s
@@ -28,10 +29,22 @@ get '/gameCaverns' do
 	erb :gameCaverns
 end
 
+get '/optionPlay' do
+	$posPlayer = "Estas en la caverna " + $partida.reportPosicionPlayer.to_s
+	player=$partida.getPlayer
+	$arrowPlayer="Numero de flechas: "+player.getArrows.to_s
+	$hasAccessToNorth = $partida.hasAccessToNorth
+	$hasAccessToEast = $partida.hasAccessToEast
+	$hasAccessToWest = $partida.hasAccessToWest
+	$hasAccessToSouth = $partida.hasAccessToSouth 
+	
+	erb :gameCaverns
+end
+
 post '/optionPlay' do
 	jugada=params[:jugada]
 	puntoCardinal=params[:puntoCardinal]
-	 
+	$valjugada=params[:jugada]
 	if (jugada == 'move')
 		if (puntoCardinal == 'norte')
 			$partida.moveToNorth

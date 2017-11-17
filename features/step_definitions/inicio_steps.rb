@@ -3,11 +3,11 @@ Given("visito la pagina de inicio") do
 end
 
 Given ("visito la pagina de juego") do
-	visit '/game'
+	visit '/gameCaverns'
 end
 
-Then("deberia mostrar {string}") do |string|
-  last_response.body.should =~ /#{string}/m
+Then("deberia mostrar {string}") do |mensaje|
+  last_response.body.should =~ /#{mensaje}/m
 end
 
 Given("presiono el link {string}") do |string|
