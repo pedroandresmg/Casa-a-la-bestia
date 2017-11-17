@@ -130,30 +130,54 @@ class Map
 	end
 
 	def shootToNorth
-		if(@player.validateShootArrow) 
-			@player.setArrows= @player.getArrows.to_i - 1 
-			@caverns[@player.getPos_x-1][@player.getPos_y].setArrowsCavern= (@caverns[@player.getPos_x-1][@player.getPos_y].getArrowsCavern.to_i+1) 
+		if(@player.validateShootArrow)
+			posX = @player.getPos_x
+			posY = @player.getPos_y
+			@player.setArrows= @player.getArrows.to_i - 1
+			while (@caverns[posX][posY].getUpAccess) do
+				posX-=1
+				#si bestia esta ahi acabo
+			end
+			@caverns[posX][posY].setArrowsCavern= (@caverns[posX][posY].getArrowsCavern.to_i+1) 
 		end
 	end
 
 	def shootToSouth
-		if(@player.validateShootArrow) 
-			@player.setArrows= @player.getArrows.to_i - 1 
-			@caverns[@player.getPos_x+1][@player.getPos_y].setArrowsCavern= (@caverns[@player.getPos_x+1][@player.getPos_y].getArrowsCavern.to_i+1)
+		if(@player.validateShootArrow)
+			posX = @player.getPos_x
+			posY = @player.getPos_y
+			@player.setArrows= @player.getArrows.to_i - 1
+			while (@caverns[posX][posY].getDownAccess) do
+				posX+=1
+				#si bestia esta ahi acabo
+			end
+			@caverns[posX][posY].setArrowsCavern= (@caverns[posX][posY].getArrowsCavern.to_i+1) 
 		end
 	end
 
 	def shootToWest
-		if(@player.validateShootArrow) 
-			@player.setArrows= @player.getArrows.to_i - 1 
-			@caverns[@player.getPos_x][@player.getPos_y-1].setArrowsCavern= (@caverns[@player.getPos_x][@player.getPos_y-1].getArrowsCavern.to_i+1)
+		if(@player.validateShootArrow)
+			posX = @player.getPos_x
+			posY = @player.getPos_y
+			@player.setArrows= @player.getArrows.to_i - 1
+			while (@caverns[posX][posY].getLeftAccess) do
+				posY-=1
+				#si bestia esta ahi acabo
+			end
+			@caverns[posX][posY].setArrowsCavern= (@caverns[posX][posY].getArrowsCavern.to_i+1) 
 		end
 	end
 
 	def shootToEast
 		if(@player.validateShootArrow)
-			@player.setArrows= @player.getArrows.to_i - 1 
-			@caverns[@player.getPos_x][@player.getPos_y+1].setArrowsCavern= (@caverns[@player.getPos_x][@player.getPos_y+1].getArrowsCavern.to_i+1)
+			posX = @player.getPos_x
+			posY = @player.getPos_y
+			@player.setArrows= @player.getArrows.to_i - 1
+			while (@caverns[posX][posY].getRightAccess) do
+				posY+=1
+				#si bestia esta ahi acabo
+			end
+			@caverns[posX][posY].setArrowsCavern= (@caverns[posX][posY].getArrowsCavern.to_i+1) 
 		end
 	end 
 
