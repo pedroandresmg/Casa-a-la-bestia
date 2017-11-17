@@ -1,5 +1,6 @@
 require './lib/cavern'
 require './lib/player'
+require './lib/monster'
 
 class Map
 
@@ -7,6 +8,7 @@ class Map
 	def initialize()
 		
 		@player = Player.new(2,3)
+		@monster = Monster.new(5,0)
 
 		@cavern_0_0=Cavern.new(false,1,false,false,false,false)
 		@cavern_0_1=Cavern.new(true,2,false,false,false,true)  
@@ -154,5 +156,48 @@ class Map
 			@caverns[@player.getPos_x][@player.getPos_y+1].setArrowsCavern= (@caverns[@player.getPos_x][@player.getPos_y+1].getArrowsCavern.to_i+1)
 		end
 	end 
+
+	def MonsterhasAccessToNorth
+		return @caverns[@monster.getPos_x][@monster.getPos_y].getUpAccess
+	end
+
+	def MonsterhasAccessToSouth
+		return @caverns[@monster.getPos_x][@monster.getPos_y].getDownAccess
+	end
+
+	def MonsterhasAccessToEast
+		return @caverns[@monster.getPos_x][@monster.getPos_y].getRightAccess
+	end
+
+	def MonsterhasAccessToWest
+		return @caverns[@monster.getPos_x][@monster.getPos_y].getLeftAccess
+	end
+
+	def setAlertsToCavernsAboutMonster
+		@caverns[@monster.getPos_x][@monster.getPos_y].setHasTheMonster = true
+		if (self.MonsterhasAccessToNorth == true)
+			@caverns[(@monster.getPos_x)-1][@monster.getPos_y].setMonsterAlert = true
+		end
+
+		if (self.MonsterhasAccessToSouth == true)
+			@caverns[(@monster.getPos_x)+1][(@monster.getPos_y)].setMonsterAlert = true
+		end
+
+		if (self.MonsterhasAccessToEast == true)
+			@caverns[(@monster.getPos_x)][(@monster.getPos_y)+1].setMonsterAlert = true
+		end
+
+		if (self.MonsterhasAccessToWest == true)
+			@caverns[(@monster.getPos_x)][(@monster.getPos_y)-1].setMonsterAlert = true
+		end
+	end
+
+	def isTheMonsterNear
+		if (@caverns[(@player.getPos_x)][@player.getPos_y].getMonsterAlert == true)
+			return true
+		else
+			return false
+		end
+	end
 
 end

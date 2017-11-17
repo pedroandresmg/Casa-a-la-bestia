@@ -10,10 +10,11 @@ class Cavern
 		@downAccess = downAccess
 		@pitAlert = false
 		@batAltert = false
-		@beastAlert = false
+		@monsterAlert = false
 		@hasAPit = false
 		@Arrows = 0
 		@hasAnSpray = false
+		@hasThemonster = false
 
 	end
 
@@ -52,8 +53,8 @@ class Cavern
 		return @batAltert
 	end
 
-	def getBeastAlert
-		return @beastAlert
+	def getMonsterAlert
+		return @monsterAlert
 	end
 
 	def getHasAPit
@@ -101,8 +102,8 @@ class Cavern
 		@batAltert = w 
 	end
 
-	def setBeastAlert=(w)
-		@beastAlert = w 
+	def setMonsterAlert=(w)
+		@monsterAlert = w 
 	end
 
 	def setHasAPit=(w)
@@ -116,6 +117,17 @@ class Cavern
 	def setHasAnSpray=(w)
 		@hasAnSpray = w 
 	end
+
+
+
+	def getHasTheMonster
+		return @hasThemonster
+	end
+
+	def setHasTheMonster=(w)
+		@hasThemonster = w
+	end
+
 
 
 end

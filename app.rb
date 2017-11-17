@@ -45,6 +45,9 @@ post '/optionPlay' do
 	jugada=params[:jugada]
 	puntoCardinal=params[:puntoCardinal]
 	$valjugada=params[:jugada]
+	$messageMonsterAlert = "¡Olor extraño!,¡La bestia está cerca!"
+	$partida.setAlertsToCavernsAboutMonster
+
 	if (jugada == 'move')
 		if (puntoCardinal == 'norte')
 			$partida.moveToNorth
@@ -56,6 +59,7 @@ post '/optionPlay' do
 			$hasAccessToEast = $partida.hasAccessToEast
 			$hasAccessToWest = $partida.hasAccessToWest
 			$hasAccessToSouth = $partida.hasAccessToSouth
+			$monsterAlert = $partida.isTheMonsterNear
 			erb :gameCaverns 
 		elsif (puntoCardinal == 'este')
 			$partida.moveToEast
@@ -67,6 +71,7 @@ post '/optionPlay' do
 			$hasAccessToEast = $partida.hasAccessToEast
 			$hasAccessToWest = $partida.hasAccessToWest
 			$hasAccessToSouth = $partida.hasAccessToSouth
+			$monsterAlert = $partida.isTheMonsterNear
 			erb :gameCaverns
 		elsif (puntoCardinal == 'oeste')
 			$partida.moveToWest
@@ -78,6 +83,7 @@ post '/optionPlay' do
 			$hasAccessToEast = $partida.hasAccessToEast
 			$hasAccessToWest = $partida.hasAccessToWest
 			$hasAccessToSouth = $partida.hasAccessToSouth
+			$monsterAlert = $partida.isTheMonsterNear
 			erb :gameCaverns
 		else
 			$partida.moveToSouth
@@ -89,6 +95,7 @@ post '/optionPlay' do
 			$hasAccessToEast = $partida.hasAccessToEast
 			$hasAccessToWest = $partida.hasAccessToWest
 			$hasAccessToSouth = $partida.hasAccessToSouth
+			$monsterAlert = $partida.isTheMonsterNear
 			erb :gameCaverns
 		end 
 		 
