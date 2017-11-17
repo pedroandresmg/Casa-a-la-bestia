@@ -45,7 +45,7 @@ post '/optionPlay' do
 	jugada=params[:jugada]
 	puntoCardinal=params[:puntoCardinal]
 	$valjugada=params[:jugada]
-	$messageMonsterAlert = "¡Olor extraño!,¡La bestia está cerca!"
+	$messageMonsterAlert = "¡Olor extraño!,¡El monstruo está cerca!"
 	$partida.setAlertsToCavernsAboutMonster
 
 	if (jugada == 'move')
