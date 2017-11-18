@@ -9,7 +9,6 @@ get '/' do
 end
 
 get '/gameOption' do
-	$partida = Map.new() 
 	$messageError=""
 	$arrowPlayer="" 
 	erb :opcionJuego
@@ -18,7 +17,9 @@ end
 
 
 get '/gameCaverns' do
+	$partida = Map.new() 
 	$valjugada=""
+	$messageMonsterAlert = ""
 	$posPlayer = "Estas en la caverna " + $partida.reportPosicionPlayer.to_s
 	player=$partida.getPlayer
 	$arrowPlayer="Numero de flechas: "+player.getArrows.to_s
@@ -51,6 +52,20 @@ post '/optionPlay' do
 	if (jugada == 'move')
 		if (puntoCardinal == 'norte')
 			$partida.moveToNorth
+			
+		elsif (puntoCardinal == 'este')
+			$partida.moveToEast
+
+		elsif (puntoCardinal == 'oeste')
+			$partida.moveToWest
+
+		else
+			$partida.moveToSouth
+		end
+
+		if ($partida.theMonsterKilledThePlayer == true)
+			erb :gameOver
+		else
 			$partida.collectArrow
 			$posPlayer = "Estas en la caverna " + $partida.reportPosicionPlayer.to_s
 			player=$partida.getPlayer
@@ -61,43 +76,7 @@ post '/optionPlay' do
 			$hasAccessToSouth = $partida.hasAccessToSouth
 			$monsterAlert = $partida.isTheMonsterNear
 			erb :gameCaverns 
-		elsif (puntoCardinal == 'este')
-			$partida.moveToEast
-			$partida.collectArrow
-			$posPlayer = "Estas en la caverna " + $partida.reportPosicionPlayer.to_s
-			player=$partida.getPlayer
-			$arrowPlayer="Numero de flechas: "+player.getArrows.to_s
-			$hasAccessToNorth = $partida.hasAccessToNorth
-			$hasAccessToEast = $partida.hasAccessToEast
-			$hasAccessToWest = $partida.hasAccessToWest
-			$hasAccessToSouth = $partida.hasAccessToSouth
-			$monsterAlert = $partida.isTheMonsterNear
-			erb :gameCaverns
-		elsif (puntoCardinal == 'oeste')
-			$partida.moveToWest
-			$partida.collectArrow
-			$posPlayer = "Estas en la caverna " + $partida.reportPosicionPlayer.to_s
-			player=$partida.getPlayer
-			$arrowPlayer="Numero de flechas: "+player.getArrows.to_s
-			$hasAccessToNorth = $partida.hasAccessToNorth
-			$hasAccessToEast = $partida.hasAccessToEast
-			$hasAccessToWest = $partida.hasAccessToWest
-			$hasAccessToSouth = $partida.hasAccessToSouth
-			$monsterAlert = $partida.isTheMonsterNear
-			erb :gameCaverns
-		else
-			$partida.moveToSouth
-			$partida.collectArrow
-			$posPlayer = "Estas en la caverna " + $partida.reportPosicionPlayer.to_s
-			player=$partida.getPlayer
-			$arrowPlayer="Numero de flechas: "+player.getArrows.to_s
-			$hasAccessToNorth = $partida.hasAccessToNorth
-			$hasAccessToEast = $partida.hasAccessToEast
-			$hasAccessToWest = $partida.hasAccessToWest
-			$hasAccessToSouth = $partida.hasAccessToSouth
-			$monsterAlert = $partida.isTheMonsterNear
-			erb :gameCaverns
-		end 
+		end
 		 
 	elsif (jugada == 'arrow') 
 		if (puntoCardinal == 'norte')

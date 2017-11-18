@@ -224,4 +224,84 @@ class Map
 		end
 	end
 
+
+	def moveTheMonsterToNorth
+		@monster.moveToNorth
+	end
+
+	def moveTheMonsterToSouth
+		@monster.moveToSouth
+	end
+
+	def moveTheMonsterToWest
+		@monster.moveToWest
+	end
+
+	def moveTheMonsterToEast
+		@monster.moveToEast
+	end
+
+	def theMonsterKilledThePlayer
+		if (@monster.getPos_x == @player.getPos_x && @monster.getPos_y == @player.getPos_y)
+			return true
+		else
+			return false
+		end
+		
+	end
+
+
+	def monsterRandomMove
+		@random = 1 + rand(3)
+
+		if (@random == 1)
+			if (self.MonsterhasAccessToNorth == true)
+				self.moveTheMonsterToNorth
+			elsif (self.MonsterhasAccessToSouth == true)
+				self.moveTheMonsterToSouth
+			elsif (self.MonsterhasAccessToEast == true)
+				self.moveTheMonsterToEast
+			else 
+				self.moveTheMonsterToWest	
+			end
+		end
+
+		if (@random == 2)
+			if (self.MonsterhasAccessToSouth == true)
+				self.moveTheMonsterToSouth
+			elsif (self.MonsterhasAccessToEast == true)
+				self.moveTheMonsterToEast
+			elsif (self.MonsterhasAccessToWest == true)
+				self.moveTheMonsterToWest
+			else 
+				self.moveTheMonsterToNorth	
+			end
+		end
+
+		if (@random == 3)
+			if (self.MonsterhasAccessToEast == true)
+				self.moveTheMonsterToEast
+			elsif (self.MonsterhasAccessToWest == true)
+				self.moveTheMonsterToWest
+			elsif (self.MonsterhasAccessToNorth == true)
+				self.moveTheMonsterToNorth
+			else 
+				self.moveTheMonsterToSouth	
+			end
+		end
+
+		if (@random == 4)
+			if (self.MonsterhasAccessToWest == true)
+				self.moveTheMonsterToWest
+			elsif (self.MonsterhasAccessToNorth == true)
+				self.moveTheMonsterToNorth
+			elsif (self.MonsterhasAccessToSouth == true)
+				self.moveTheMonsterToSouth
+			else 
+				self.moveTheMonsterToEast	
+			end
+		end
+
+	end
+
 end

@@ -6,60 +6,24 @@
 </form>
 Usando Mapa predeterminado 
 <h2> Caza al monstruo</h2>
-<h4> Jugada: </h4>
-<form action="/optionPlay" method="post">
-  <input type="radio" id="jugadaMover" name="option" value="move" onclick="checkMover()" class="radio">
-  <label style="font-size:19px;font-weight: bold;">Mover</label><br>
-  <input type="radio" id="jugadaFlecha" name="option" value="arrow" onclick="checkFlecha()" class="radio">
-  <label style="font-size:19px;font-weight: bold;">Lanzar Flecha</label><br>
-  <input type="radio" id="jugadaSpray" name="option" value="spray" onclick="checkSpray()" class="radio">
-  <label style="font-size:19px;font-weight: bold;">Usar Spray</label>
-  <input type="hidden" id=play name=jugada>
 
 
-  <% if $hasAccessToNorth == true %>
-  		<button type="submit" name="puntoCardinal" value="norte" class="button buttonNorte">Norte</button><br>
-  <% else %>
-  		<button type="submit" name="puntoCardinal" value="norte" disabled class="button buttonNorte2">Norte</button><br>
-  <% end %>
+	<button type="submit" name="puntoCardinal" value="norte" disabled class="button buttonNorte2">Norte</button><br>
+	<button type="submit" name="puntoCardinal" value="este" disabled class="button buttonEste2">Este</button>
+	<img src="https://i.pinimg.com/originals/be/20/a3/be20a344ff08fcb8d77c53df37385d2c.jpg" style="position: absolute; top: 120px; left: 650px;"> 
+	<button type="submit" name="puntoCardinal" value="oeste" disabled  class="button buttonOeste2">Oeste</button>
+	<button type="submit" name="puntoCardinal" value="sur" disabled  class="button buttonSur2">Sur</button>
   
 
-  <% if $hasAccessToEast == true %>
-  		<button type="submit" name="puntoCardinal" value="este" class="button buttonEste">Este</button>
-  <% else %>
-  		<button type="submit" name="puntoCardinal" value="este" disabled class="button buttonEste2">Este</button>
-  <% end %>
+<br>
+<br>
+<h2> ¡Has sido devorado por el Monstruo! </h2>
+<h2> ----------¡Perdiste el juego! :'( ----------</h2>
 
-   <img src="https://i.pinimg.com/originals/be/20/a3/be20a344ff08fcb8d77c53df37385d2c.jpg" style="position: absolute; top: 120px; left: 650px;"> 
-
-  <% if $hasAccessToWest == true %>
-  		<button type="submit" name="puntoCardinal" value="oeste"  class="button buttonOeste">Oeste</button>
-  <% else %>
-  		<button type="submit" name="puntoCardinal" value="oeste" disabled  class="button buttonOeste2">Oeste</button>
-  <% end %>
-
-
-  <% if $hasAccessToSouth == true %>
-  		<button type="submit" name="puntoCardinal" value="sur" class="button buttonSur">Sur</button>
-  <% else %>
-  		<button type="submit" name="puntoCardinal" value="sur" disabled  class="button buttonSur2">Sur</button>
-  <% end %>
-  
+<form action="/gameCaverns" method="get">
+  <button type="submit" value="restart" class="button buttonRestartGame">
+  Reiniciar Juego</button>
 </form>
-
-<br>
-<br>
-<%=$posPlayer%>
-<br>
-<%=$arrowPlayer.to_s%>
-<br> 
-<% if $monsterAlert == true %>
-  <p style="color: red;">
-  <%=$messageMonsterAlert%>
-  </p>
-<% end %>
-<br>
-
    
 <script> 
 function checkMover()
@@ -173,6 +137,10 @@ position: absolute; top: 180px; left: 840px;background-color: #696969;
 
 .buttonOeste2 {
 position: absolute; top: 180px; left: 550px;background-color: #696969;
+}
+
+.buttonRestartGame{
+	position: absolute; top: 280px; left: 200px;
 }
 </style>
 
