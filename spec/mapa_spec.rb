@@ -3,22 +3,22 @@ require './lib/map'
 describe Map do
 
 	before(:each) do
-		@player = Player.new(4,3)
+		@player = Player.new(2,3)
 		@game = Map.new()
 		@game.setPlayer = @player
 	end
 
-	it "should show that you are on cavern 36 " do
-		expect(@game.reportPosicionPlayer()).to eq(36)
+	it "should show that you are on cavern 20 " do
+		expect(@game.reportPosicionPlayer()).to eq(20)
 	end
 
 
-	it "should show that you have access to the north " do
-		expect(@game.hasAccessToNorth()).to eq(true)
+	it "should show that you dont have access to the north " do
+		expect(@game.hasAccessToNorth()).to eq(false)
 	end
 
-	it "should show that you have access to the east " do
-		expect(@game.hasAccessToEast()).to eq(true)
+	it "should show that you dont have access to the east " do
+		expect(@game.hasAccessToEast()).to eq(false)
 	end
 
 	it "should show that you have access to the west " do
@@ -29,32 +29,38 @@ describe Map do
 		expect(@game.hasAccessToSouth()).to eq(true)
 	end
 
-	it "should the player move to the north " do
-		@game.moveToNorth
-		expect(@game.getPlayer.getPos_x()).to eq(3)
-	end
-
-	it "should the player move to the east " do
-		@game.moveToEast
-		expect(@game.getPlayer.getPos_y()).to eq(4)
-	end
-
-
 	it "should the player move to the west " do
-		@game.moveToWest
+		if(@game.hasAccessToWest)
+			@game.moveToWest
+		end
 		expect(@game.getPlayer.getPos_y()).to eq(2)
 	end
 
-
 	it "should the player move to the south " do
-		@game.moveToSouth
-		expect(@game.getPlayer.getPos_x()).to eq(5)
+		if(@game.hasAccessToSouth)
+			@game.moveToSouth
+		end
+		expect(@game.getPlayer.getPos_x()).to eq(3)
+	end
+
+	it "shouldn't the player move to the north " do
+		if(@game.hasAccessToNorth)
+			@game.moveToNorth	
+		end
+		expect(@game.getPlayer.getPos_x()).to eq(2)
+	end
+
+	it "shouldn't the player move to the east " do
+		if(@game.hasAccessToEast)
+			@game.moveToEast
+		end	
+		expect(@game.getPlayer.getPos_y()).to eq(3)
 	end
 
 	it "player can not move to west" do
 		@game.moveToWest
 		@game.moveToWest
-		expect(@game.hasAccessToWest).to eq(false)
+		expect(@game.hasAccessToWest).to eq(true)
 	end
 
 	it "player can not move to south after two moves to the west" do
@@ -87,7 +93,7 @@ describe Map do
 
 	it "player can not move to south after one move to the south" do
 		@game.moveToSouth
-		expect(@game.hasAccessToSouth).to eq(false)
+		expect(@game.hasAccessToSouth).to eq(true)
 	end
 	
 	it "player must have two arrows after shooting south" do
@@ -108,13 +114,17 @@ describe Map do
 		expect(@game.getPlayer.getArrows()).to eq(0)
 	end
 
-	it "collect three arrows after shooting three times in the west and moving west" do
+	it "collect three arrows after shooting three times in the west and moving west two times" do
 		@game.shootToWest
 		@game.shootToWest
 		@game.shootToWest
 		@game.moveToWest
+		@game.moveToWest
+		@game.moveToWest
 		@game.collectArrow
 		expect(@game.getPlayer.getArrows()).to eq(3)
 	end
+
+	
 
 end

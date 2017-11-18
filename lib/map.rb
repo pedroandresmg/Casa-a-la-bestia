@@ -78,6 +78,10 @@ class Map
 		return @player
 	end
 
+	def getMonster
+		return @monster
+	end
+
 	def setCaverns=(w)
 		@caverns = w 
 	end
@@ -86,6 +90,9 @@ class Map
 		@player = w 
 	end
 
+	def setMonster=(w)
+		@monster = w
+	end
 
 	def reportPosicionPlayer
 		return @caverns[@player.getPos_x][@player.getPos_y].getNumberOfCavern
@@ -136,7 +143,9 @@ class Map
 			@player.setArrows= @player.getArrows.to_i - 1
 			while (@caverns[posX][posY].getUpAccess) do
 				posX-=1
-				#si bestia esta ahi acabo
+				if((@monster.getPos_x==posX) && (@monster.getPos_y==posY))
+					@monster.setItsAlive=false
+				end
 			end
 			@caverns[posX][posY].setArrowsCavern= (@caverns[posX][posY].getArrowsCavern.to_i+1) 
 		end
@@ -149,7 +158,9 @@ class Map
 			@player.setArrows= @player.getArrows.to_i - 1
 			while (@caverns[posX][posY].getDownAccess) do
 				posX+=1
-				#si bestia esta ahi acabo
+				if((@monster.getPos_x==posX) && (@monster.getPos_y==posY))
+					@monster.setItsAlive=false
+				end
 			end
 			@caverns[posX][posY].setArrowsCavern= (@caverns[posX][posY].getArrowsCavern.to_i+1) 
 		end
@@ -162,7 +173,9 @@ class Map
 			@player.setArrows= @player.getArrows.to_i - 1
 			while (@caverns[posX][posY].getLeftAccess) do
 				posY-=1
-				#si bestia esta ahi acabo
+				if((@monster.getPos_x==posX) && (@monster.getPos_y==posY))
+					@monster.setItsAlive=false
+				end
 			end
 			@caverns[posX][posY].setArrowsCavern= (@caverns[posX][posY].getArrowsCavern.to_i+1) 
 		end
@@ -175,43 +188,45 @@ class Map
 			@player.setArrows= @player.getArrows.to_i - 1
 			while (@caverns[posX][posY].getRightAccess) do
 				posY+=1
-				#si bestia esta ahi acabo
+				if((@monster.getPos_x==posX) && (@monster.getPos_y==posY))
+					@monster.setItsAlive=false
+				end
 			end
 			@caverns[posX][posY].setArrowsCavern= (@caverns[posX][posY].getArrowsCavern.to_i+1) 
 		end
 	end 
 
-	def MonsterhasAccessToNorth
+	def monsterHasAccessToNorth
 		return @caverns[@monster.getPos_x][@monster.getPos_y].getUpAccess
 	end
 
-	def MonsterhasAccessToSouth
+	def monsterHasAccessToSouth
 		return @caverns[@monster.getPos_x][@monster.getPos_y].getDownAccess
 	end
 
-	def MonsterhasAccessToEast
+	def monsterHasAccessToEast
 		return @caverns[@monster.getPos_x][@monster.getPos_y].getRightAccess
 	end
 
-	def MonsterhasAccessToWest
+	def monsterHasAccessToWest
 		return @caverns[@monster.getPos_x][@monster.getPos_y].getLeftAccess
 	end
 
 	def setAlertsToCavernsAboutMonster
 		@caverns[@monster.getPos_x][@monster.getPos_y].setHasTheMonster = true
-		if (self.MonsterhasAccessToNorth == true)
+		if (self.monsterHasAccessToNorth == true)
 			@caverns[(@monster.getPos_x)-1][@monster.getPos_y].setMonsterAlert = true
 		end
 
-		if (self.MonsterhasAccessToSouth == true)
+		if (self.monsterHasAccessToSouth == true)
 			@caverns[(@monster.getPos_x)+1][(@monster.getPos_y)].setMonsterAlert = true
 		end
 
-		if (self.MonsterhasAccessToEast == true)
+		if (self.monsterHasAccessToEast == true)
 			@caverns[(@monster.getPos_x)][(@monster.getPos_y)+1].setMonsterAlert = true
 		end
 
-		if (self.MonsterhasAccessToWest == true)
+		if (self.monsterHasAccessToWest == true)
 			@caverns[(@monster.getPos_x)][(@monster.getPos_y)-1].setMonsterAlert = true
 		end
 	end
@@ -250,16 +265,24 @@ class Map
 		
 	end
 
+	def thePlayerKilledTheMonster
+		if(@monster.getItsAlive==false)
+			return true
+		else
+			return false
+		end
+	end
+
 
 	def monsterRandomMove
 		@random = 1 + rand(3)
 
 		if (@random == 1)
-			if (self.MonsterhasAccessToNorth == true)
+			if (self.monsterHasAccessToNorth == true)
 				self.moveTheMonsterToNorth
-			elsif (self.MonsterhasAccessToSouth == true)
+			elsif (self.monsterHasAccessToSouth == true)
 				self.moveTheMonsterToSouth
-			elsif (self.MonsterhasAccessToEast == true)
+			elsif (self.monsterHasAccessToEast == true)
 				self.moveTheMonsterToEast
 			else 
 				self.moveTheMonsterToWest	
@@ -267,11 +290,11 @@ class Map
 		end
 
 		if (@random == 2)
-			if (self.MonsterhasAccessToSouth == true)
+			if (self.monsterHasAccessToSouth == true)
 				self.moveTheMonsterToSouth
-			elsif (self.MonsterhasAccessToEast == true)
+			elsif (self.monsterHasAccessToEast == true)
 				self.moveTheMonsterToEast
-			elsif (self.MonsterhasAccessToWest == true)
+			elsif (self.monsterHasAccessToWest == true)
 				self.moveTheMonsterToWest
 			else 
 				self.moveTheMonsterToNorth	
@@ -279,11 +302,11 @@ class Map
 		end
 
 		if (@random == 3)
-			if (self.MonsterhasAccessToEast == true)
+			if (self.monsterHasAccessToEast == true)
 				self.moveTheMonsterToEast
-			elsif (self.MonsterhasAccessToWest == true)
+			elsif (self.monsterHasAccessToWest == true)
 				self.moveTheMonsterToWest
-			elsif (self.MonsterhasAccessToNorth == true)
+			elsif (self.monsterHasAccessToNorth == true)
 				self.moveTheMonsterToNorth
 			else 
 				self.moveTheMonsterToSouth	
@@ -291,11 +314,11 @@ class Map
 		end
 
 		if (@random == 4)
-			if (self.MonsterhasAccessToWest == true)
+			if (self.monsterHasAccessToWest == true)
 				self.moveTheMonsterToWest
-			elsif (self.MonsterhasAccessToNorth == true)
+			elsif (self.monsterHasAccessToNorth == true)
 				self.moveTheMonsterToNorth
-			elsif (self.MonsterhasAccessToSouth == true)
+			elsif (self.monsterHasAccessToSouth == true)
 				self.moveTheMonsterToSouth
 			else 
 				self.moveTheMonsterToEast	
