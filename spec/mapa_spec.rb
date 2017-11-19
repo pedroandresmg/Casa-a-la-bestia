@@ -11,7 +11,7 @@ describe Map do
 	end
 
 	it "should show that you are on cavern 20 " do
-		expect(@game.reportPosicionPlayer()).to eq(20)
+		expect(@game.reportPosicionPlayer()).to eq("Estas en la caverna 20")
 	end
 
 

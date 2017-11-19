@@ -95,9 +95,12 @@ class Map
 	end
 
 	def reportPosicionPlayer
-		return @caverns[@player.getPos_x][@player.getPos_y].getNumberOfCavern
+		return "Estas en la caverna "+@caverns[@player.getPos_x][@player.getPos_y].getNumberOfCavern.to_s
 	end
 
+	def reportNumberArrows
+		return "Numero de flechas "+@player.getArrows.to_s
+	end
 	
 	def hasAccessToNorth
 		return @caverns[@player.getPos_x][@player.getPos_y].getUpAccess

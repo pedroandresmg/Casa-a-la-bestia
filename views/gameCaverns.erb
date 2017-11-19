@@ -1,6 +1,4 @@
-<html>
 <link href="styles.css" rel="stylesheet" type="text/css" />
-<body>
 <form action="/" method="get">
   <button type="submit" value="salir" class="button" style="vertical-align:top;float:right;">
   Salir del juego</button>
@@ -15,8 +13,7 @@ Usando Mapa predeterminado
   <label style="font-size:19px;font-weight: bold;">Lanzar Flecha</label><br>
   <input type="radio" id="jugadaSpray" name="option" value="spray" onclick="checkSpray()" class="radio">
   <label style="font-size:19px;font-weight: bold;">Usar Spray</label>
-  <input type="hidden" id=play name=jugada>
-
+  <input type="hidden" id="jugada" name="jugada">
 
   <% if $hasAccessToNorth == true %>
   		<button type="submit" name="puntoCardinal" value="norte" class="button buttonNorte">Norte</button><br>
@@ -50,9 +47,9 @@ Usando Mapa predeterminado
 
 <br>
 <br>
-<%=$posPlayer%>
+<%=$partida.reportPosicionPlayer%>
 <br>
-<%=$arrowPlayer.to_s%>
+<%=$arrowPlayer%>
 <br> 
 <% if $monsterAlert == true %>
   <p style="color: red;">
@@ -67,26 +64,26 @@ function checkMover()
 {
   radioMover= document.getElementById("jugadaMover"); 
   radioMover.checked=true;
-  document.getElementById("play").innerHTML =getPlayOption();
+  document.getElementById("jugada").innerHTML =getPlayOption();
 }
 
 function checkFlecha()
 {
   radioFlecha=document.getElementById("jugadaFlecha");
   radioFlecha.checked=true;
-  document.getElementById("play").innerHTML =getPlayOption();
+  document.getElementById("jugada").innerHTML =getPlayOption();
 }
 
 function checkSpray()
 {
   radioSpray=document.getElementById("jugadaSpray");
   radioSpray.checked=true;
-  document.getElementById("play").innerHTML =getPlayOption();
+  document.getElementById("jugada").innerHTML =getPlayOption();
 }
 
 function getPlayOption()
 { 
-  playOption=document.getElementById("play").value;
+  playOption=document.getElementById("jugada").value;
   radioMover =document.getElementById("jugadaMover");
   radioFlecha=document.getElementById("jugadaFlecha");
   radioSpray= document.getElementById("jugadaSpray");
@@ -99,7 +96,7 @@ function getPlayOption()
   else if (radioSpray.checked) {
     playOption = radioSpray.value;
   }  
-  document.getElementById("play").value=playOption;  
+  document.getElementById("jugada").value=playOption;  
 } 
 
 function loadRadioButton()
@@ -118,5 +115,3 @@ function loadRadioButton()
 }
 window.onload=loadRadioButton();
 </script> 
-</body>
-</html>

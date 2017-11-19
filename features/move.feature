@@ -4,11 +4,30 @@ Feature:    Como jugador
 Scenario: 
 		Given visito la pagina de inicio
 		And presiono el link "1.- Jugar"
-		And presiono el link "1.- Usar el Mapa Predeterminado"
+		And presiono el boton "MapaPredeterminado"
 		Then  deberia mostrar "Estas en la caverna 20"	
 
-
-
-
-
-
+Scenario: 
+		Given visito la pagina de inicio
+		And presiono el link "1.- Jugar"
+		And presiono el boton "MapaPredeterminado"
+		And selecciono la jugada "jugadaMover"
+		And presiono el boton "oeste" 
+		And deberia mostrar "Estas en la caverna 19"
+ 
+Scenario: 
+		Given visito la pagina de inicio
+		And presiono el link "1.- Jugar"
+		And presiono el boton "MapaPredeterminado"
+		And selecciono la jugada "jugadaMover"
+		And presiono el boton "sur" 
+		Then deberia mostrar "Estas en la caverna 28"
+		
+Scenario: 
+		Given visito la pagina de inicio
+		And presiono el link "1.- Jugar"
+		And presiono el boton "MapaPredeterminado"
+		And selecciono la jugada "jugadaMover" 
+		And presiono el boton "oeste"
+		And presiono el boton "norte" 
+		Then deberia mostrar "Estas en la caverna 11"
