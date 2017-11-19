@@ -1,4 +1,6 @@
 require './lib/player'
+require './lib/monster'
+
 
 describe Player do
 
@@ -26,6 +28,9 @@ describe Player do
 		expect(@player.getPos_x()).to eq(5)
 	end
 	
+	it "should have arrows" do
+		expect(@player.validateShootArrow()).to eq(true)
+	end
 
-
+	
 end

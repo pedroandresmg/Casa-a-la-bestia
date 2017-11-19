@@ -5,6 +5,8 @@ describe Map do
 	before(:each) do
 		@player = Player.new(2,3)
 		@game = Map.new()
+		@monster = Monster.new(2,2)
+		@game.setMonster = @monster
 		@game.setPlayer = @player
 	end
 
@@ -125,6 +127,60 @@ describe Map do
 		expect(@game.getPlayer.getArrows()).to eq(3)
 	end
 
-	
+
+	it "the player should smell the monster" do
+		@game.setAlertsToCavernsAboutMonster
+		expect(@game.isTheMonsterNear()).to eq(true)
+	end
+
+
+	it "the monster should have access to the north " do
+		expect(@game.monsterHasAccessToNorth()).to eq(true)
+	end
+
+	it "the monster should have access to the east " do
+		expect(@game.monsterHasAccessToEast()).to eq(true)
+	end
+
+	it "the monster should have access to the west " do
+		expect(@game.monsterHasAccessToWest()).to eq(true)
+	end
+
+	it "the monster should not have access to the south " do
+		expect(@game.monsterHasAccessToSouth()).to eq(false)
+	end
+
+
+	it "the monster should move to the north " do
+		@game.moveTheMonsterToNorth
+		expect(@game.getMonster.getPos_x()).to eq(1)
+	end
+
+	it "the monster should move to the east " do
+		@game.moveTheMonsterToEast
+		expect(@game.getMonster.getPos_y()).to eq(3)
+	end
+
+	it "the monster should move to the west " do
+		@game.moveTheMonsterToWest
+		expect(@game.getMonster.getPos_y()).to eq(1)
+	end
+
+	it "the monster should move to the south " do
+		@game.moveTheMonsterToEast
+		@game.moveTheMonsterToSouth
+		expect(@game.getMonster.getPos_x()).to eq(3)
+	end
+
+	it "the player should kill the monster" do
+		@game.shootToWest
+		expect(@game.thePlayerKilledTheMonster()).to eq(true)
+	end
+
+	it "the monster should kill the player" do 
+		@game.moveToWest
+		expect(@game.theMonsterKilledThePlayer()).to eq(true)
+	end
+
 
 end
