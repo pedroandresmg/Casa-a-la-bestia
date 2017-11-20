@@ -105,7 +105,11 @@ class Map
 	def reportMonsterIsNear
 		return "¡Olor extraño!,¡El monstruo está cerca!"
 	end
-	
+
+	def reportMissArrow 
+		return "El lanzamiento de la flecha no impacto con el monstruo"  
+	end
+		 
 	def hasAccessToNorth
 		return @caverns[@player.getPos_x][@player.getPos_y].getUpAccess
 	end

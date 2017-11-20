@@ -2,7 +2,14 @@
     font-family: cursive, fantasy;
     font-size: 45px;
     color: white;
-    background: #000010
+    background: #000010;
+}
+
+.estilotextarea3 {
+    font-family: cursive, fantasy;
+    font-weight: bold;
+    overflow: auto;
+    resize: none;
 }
 
 .radio {
@@ -13,12 +20,23 @@
     vertical-align: middle;
 }
 
+.zelda {
+    color: white;
+    font-size: 30px;
+}
+
 .noLikeButton {
     padding: 0;
     border: none;
     background: none;
     color: white;
     font-size: 30px;
+    cursor: pointer;
+}
+
+.noLikeButton:active {
+    background-color: #32CD32;
+    transform: translateY(4px);
 }
 
 .button {

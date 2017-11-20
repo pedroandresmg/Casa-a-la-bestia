@@ -24,9 +24,10 @@ end
 post '/gameCaverns' do
 	$partida = Map.new()
 	$jugada="move" 
+	$monsterDeathByArrow=true  
 	$messageMonsterAlert = $partida.reportMonsterIsNear 
 	$posPlayer = $partida.reportPosicionPlayer 
-	$arrowPlayer = $partida.reportNumberArrows
+	$arrowPlayer = $partida.reportNumberArrows 
 	$hasAccessToNorth = $partida.hasAccessToNorth
 	$hasAccessToEast = $partida.hasAccessToEast
 	$hasAccessToWest = $partida.hasAccessToWest
@@ -39,17 +40,21 @@ end
 post '/optionPlay' do
 	$jugada=params[:jugada]
 	@puntoCardinal=params[:puntoCardinal].to_s
-	$partida.setAlertsToCavernsAboutMonster 
+	$partida.setAlertsToCavernsAboutMonster
+	$monsterDeathByArrow=true 
 	if ($jugada == 'arrow') 
 		if (@puntoCardinal == 'norte')
-			$partida.shootToNorth
+			$partida.shootToNorth 
 		elsif (@puntoCardinal == 'este')
-			$partida.shootToEast
+			$partida.shootToEast 
 		elsif (@puntoCardinal == 'oeste')
-			$partida.shootToWest
+			$partida.shootToWest 
 		else
-			$partida.shootToSouth 
-		end  
+			$partida.shootToSouth  
+		end   
+		if ($partida.thePlayerKilledTheMonster == false)
+			$monsterDeathByArrow=false 
+		end
 	elsif ($jugada == 'spray')
 		if (@puntoCardinal == 'norte')
 
@@ -60,19 +65,18 @@ post '/optionPlay' do
 		else
 
 		end
+		$monsterDeathByArrow=true 
 	else
 		if (@puntoCardinal == 'norte')
-			$partida.moveToNorth
-			
+			$partida.moveToNorth 
 		elsif (@puntoCardinal == 'este')
-			$partida.moveToEast
-
+			$partida.moveToEast 
 		elsif (@puntoCardinal == 'oeste')
-			$partida.moveToWest
-
+			$partida.moveToWest 
 		else
-			$partida.moveToSouth
+			$partida.moveToSouth 
 		end
+		$monsterDeathByArrow=true 
 	end 
 
 	if ($partida.theMonsterKilledThePlayer == true)
@@ -81,13 +85,15 @@ post '/optionPlay' do
 		erb :gameWin
 	else 
 		$partida.collectArrow
-		$posPlayer = $partida.reportPosicionPlayer()
-		$arrowPlayer= $partida.reportNumberArrows()
+		$posPlayer = $partida.reportPosicionPlayer
+		$arrowPlayer= $partida.reportNumberArrows 
+		$messageMonsterAlert = $partida.reportMonsterIsNear
+		$messageMissArrow=$partida.reportMissArrow
 		$hasAccessToNorth = $partida.hasAccessToNorth
 		$hasAccessToEast = $partida.hasAccessToEast
 		$hasAccessToWest = $partida.hasAccessToWest
 		$hasAccessToSouth = $partida.hasAccessToSouth
-		$monsterAlert = $partida.isTheMonsterNear
+		$monsterAlert = $partida.isTheMonsterNear 
 		erb :gameCaverns
 	end
 

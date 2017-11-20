@@ -5,60 +5,63 @@
   Salir del juego</button>
 </form>
 Usando Mapa predeterminado 
-<h2> Caza al monstruo</h2>
-<h4> Jugada: </h4>
+<h1> Caza al monstruo</h1>
+<h3> Jugada: </h3>
 <form action="/optionPlay" method="post">
   <input type="radio" id="jugadaMover" name="jugada" value="move" onclick="checkMover()" class="radio">
-  <label style="font-size:19px;font-weight: bold;">Mover</label><br>
+  <label style="font-size:22px;font-weight: bold;">Mover</label><br>
   <input type="radio" id="jugadaFlecha" name="jugada" value="arrow" onclick="checkFlecha()" class="radio">
-  <label style="font-size:19px;font-weight: bold;">Lanzar Flecha</label><br>
+  <label style="font-size:22px;font-weight: bold;">Lanzar Flecha</label><br>
   <input type="radio" id="jugadaSpray" name="jugada" value="spray" onclick="checkSpray()" class="radio">
-  <label style="font-size:19px;font-weight: bold;">Usar Spray</label>
+  <label style="font-size:22px;font-weight: bold;">Usar Spray</label>
 
   <% if $hasAccessToNorth == true %>
   		<button type="submit" name="puntoCardinal" value="norte" class="button buttonNorte">Norte</button><br>
   <% else %>
   		<button type="submit" name="puntoCardinal" value="norte" disabled class="button buttonNorte2">Norte</button><br>
   <% end %>
-  
-
+   
   <% if $hasAccessToEast == true %>
   		<button type="submit" name="puntoCardinal" value="este" class="button buttonEste">Este</button>
   <% else %>
   		<button type="submit" name="puntoCardinal" value="este" disabled class="button buttonEste2">Este</button>
   <% end %>
 
-   <img src="https://i.pinimg.com/originals/be/20/a3/be20a344ff08fcb8d77c53df37385d2c.jpg" style="position: absolute; top: 120px; left: 650px;"> 
+  <img src="https://i.pinimg.com/originals/be/20/a3/be20a344ff08fcb8d77c53df37385d2c.jpg" style="position: absolute; top: 120px; left: 650px;"> 
 
   <% if $hasAccessToWest == true %>
   		<button type="submit" name="puntoCardinal" value="oeste"  class="button buttonOeste">Oeste</button>
   <% else %>
   		<button type="submit" name="puntoCardinal" value="oeste" disabled  class="button buttonOeste2">Oeste</button>
-  <% end %>
-
+  <% end %> 
 
   <% if $hasAccessToSouth == true %>
   		<button type="submit" name="puntoCardinal" value="sur" class="button buttonSur">Sur</button>
   <% else %>
   		<button type="submit" name="puntoCardinal" value="sur" disabled  class="button buttonSur2">Sur</button>
-  <% end %>
-  
-</form>
-
+  <% end %> 
+</form> 
 <br>
-<br>
+<label style="font-family: Monospace, Lucida Console;font-weight: bold;font-size: 17px;">
 <%=$posPlayer%>
+</label>
 <br>
+<label style="font-family: Monospace, Lucida Console;font-weight: bold;font-size: 17px;">
 <%=$arrowPlayer%>
+</label>
 <br> 
-<% if $monsterAlert == true %>
-  <p style="color: red;">
-  <%=$messageMonsterAlert%>
-  </p>
-<% end %>
+<% if $monsterAlert == true %> 
+  <label style="font-family: Monospace, Lucida Console;font-weight: bold;font-size: 17px;color: red;">
+  <%=$messageMonsterAlert %>
+  </label> 
+<% end %>   
+<% if $monsterDeathByArrow == false %> 
+  <label style="font-family: Monospace, Lucida Console;font-weight: bold;font-size: 17px;color: blue;">
+  <%=$messageMissArrow %>
+  </label> 
+<% end %>  
 <br> 
-   
-<script> 
+<script>
 function checkMover()
 {
   document.getElementById("jugadaMover").checked=true;
@@ -71,7 +74,7 @@ function checkFlecha()
 
 function checkSpray()
 {
-  document.getElementById("jugadaFlecha").checked=true;
+  document.getElementById("jugadaSpray").checked=true;
 }
 
 
@@ -84,7 +87,7 @@ function loadRadioButton()
     document.getElementById("jugadaSpray").click();
   }else{  
     document.getElementById("jugadaMover").click();
-  }
+  } 
 }
 window.onload=loadRadioButton();
 </script> 

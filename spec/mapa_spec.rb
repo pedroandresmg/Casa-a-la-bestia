@@ -97,6 +97,11 @@ describe Map do
 		@game.moveToSouth
 		expect(@game.hasAccessToSouth).to eq(true)
 	end
+
+	it "should show player fail shoot arrow to South" do
+		@game.shootToSouth
+		expect(@game.reportMissArrow).to eq("El lanzamiento de la flecha no impacto con el monstruo")
+	end
 	
 	it "player must have two arrows after shooting south" do
 		@game.shootToSouth
