@@ -116,7 +116,7 @@ describe Map do
 		expect(@game.getPlayer.getArrows()).to eq(0)
 	end
 
-	it "collect three arrows after shooting three times in the west and moving west two times" do
+	it "collect three arrows after shooting three times in the west and moving west three times" do
 		@game.shootToWest
 		@game.shootToWest
 		@game.shootToWest
@@ -133,6 +133,10 @@ describe Map do
 		expect(@game.isTheMonsterNear()).to eq(true)
 	end
 
+	it "should show that you smell the monster" do
+		@game.setAlertsToCavernsAboutMonster
+		expect(@game.reportMonsterIsNear()).to eq("¡Olor extraño!,¡El monstruo está cerca!") 
+	end
 
 	it "the monster should have access to the north " do
 		expect(@game.monsterHasAccessToNorth()).to eq(true)

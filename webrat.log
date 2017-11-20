@@ -3686,3 +3686,1204 @@ D, [2017-11-19T17:55:57.320000 #9420] DEBUG -- : REQUESTING PAGE: GET / with {} 
 D, [2017-11-19T17:55:57.372000 #9420] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
 D, [2017-11-19T17:55:57.449000 #9420] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
 D, [2017-11-19T17:55:57.507000 #9420] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:08:41.358000 #12472] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:08:42.410000 #12472] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:08:42.500000 #12472] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:08:42.734000 #12472] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:08:42.816000 #12472] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:08:42.898000 #12472] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:08:43.029000 #12472] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:08:43.092000 #12472] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:08:43.182000 #12472] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:08:43.415000 #12472] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:08:43.550000 #12472] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:08:43.620000 #12472] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:08:43.681000 #12472] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:08:43.836000 #12472] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:08:43.988000 #12472] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:08:44.083000 #12472] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:08:44.170000 #12472] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:08:44.322000 #12472] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:08:44.476000 #12472] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"", "puntoCardinal"=>"norte"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T20:08:44.622000 #12472] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:08:44.698000 #12472] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:08:44.793000 #12472] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:08:44.916000 #12472] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:08:44.980000 #12472] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:08:45.066000 #12472] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:08:45.137000 #12472] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:08:45.194000 #12472] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:08:45.264000 #12472] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:09:15.953000 #10936] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:09:17.074000 #10936] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:09:17.164000 #10936] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:09:17.410000 #10936] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:09:17.494000 #10936] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:09:17.569000 #10936] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:09:17.701000 #10936] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:09:17.778000 #10936] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:09:17.874000 #10936] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:09:18.065000 #10936] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:09:18.208000 #10936] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:09:18.279000 #10936] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:09:18.350000 #10936] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:09:18.510000 #10936] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:09:18.671000 #10936] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:09:18.763000 #10936] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:09:18.875000 #10936] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:09:19.117000 #10936] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:09:19.297000 #10936] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"", "puntoCardinal"=>"norte"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T20:09:19.466000 #10936] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:09:19.537000 #10936] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:09:19.592000 #10936] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:09:19.678000 #10936] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:09:19.743000 #10936] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:09:19.897000 #10936] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:09:20.020000 #10936] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:09:20.161000 #10936] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:09:20.349000 #10936] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:11:44.963000 #9372] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:11:46.078000 #9372] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:11:46.165000 #9372] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:11:50.576000 #9372] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:11:50.653000 #9372] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:11:50.728000 #9372] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:11:54.562000 #9372] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:11:54.673000 #9372] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:11:54.746000 #9372] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:11:57.365000 #9372] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:11:57.452000 #9372] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:11:57.529000 #9372] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:12:33.257000 #2068] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:12:34.208000 #2068] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:12:34.306000 #2068] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:12:37.716000 #2068] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:12:37.771000 #2068] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:12:37.846000 #2068] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:12:40.602000 #2068] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:12:40.679000 #2068] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:12:40.760000 #2068] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:12:43.139000 #2068] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:12:43.213000 #2068] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:12:43.272000 #2068] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:12:45.347000 #2068] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:12:45.434000 #2068] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:12:45.498000 #2068] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:12:47.736000 #2068] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:12:47.800000 #2068] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:12:47.863000 #2068] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:12:50.264000 #2068] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:12:50.343000 #2068] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:12:50.433000 #2068] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:12:50.521000 #2068] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:13:41.930000 #11928] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:13:43.001000 #11928] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:13:43.095000 #11928] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:13:46.652000 #11928] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:13:46.727000 #11928] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:13:46.822000 #11928] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:14:49.000000 #5940] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:14:49.943000 #5940] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:14:50.030000 #5940] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:14:53.813000 #5940] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:14:53.868000 #5940] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:14:53.948000 #5940] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:14:57.145000 #5940] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:14:57.205000 #5940] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:14:57.282000 #5940] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:14:59.899000 #5940] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:14:59.987000 #5940] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:15:00.055000 #5940] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:15:02.239000 #5940] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:15:02.389000 #5940] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:15:02.482000 #5940] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:15:41.477000 #4636] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:15:42.528000 #4636] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:15:42.650000 #4636] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:15:46.152000 #4636] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:15:46.234000 #4636] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:15:46.316000 #4636] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:18:17.346000 #5040] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:18:18.290000 #5040] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:18:18.375000 #5040] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:18:18.661000 #5040] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:18:18.725000 #5040] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:18:18.784000 #5040] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:18:18.927000 #5040] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:18:18.991000 #5040] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:18:19.069000 #5040] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:18:19.238000 #5040] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:18:19.359000 #5040] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:18:19.412000 #5040] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:18:19.470000 #5040] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:18:19.643000 #5040] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:18:19.755000 #5040] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:18:19.824000 #5040] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:18:19.901000 #5040] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:18:20.153000 #5040] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:18:20.424000 #5040] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"", "puntoCardinal"=>"norte"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T20:18:20.585000 #5040] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:18:20.667000 #5040] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:18:20.770000 #5040] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:18:20.878000 #5040] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:18:20.930000 #5040] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:18:20.999000 #5040] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:18:21.103000 #5040] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:18:21.176000 #5040] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:18:21.277000 #5040] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:19:07.873000 #4104] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:19:08.888000 #4104] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:19:08.986000 #4104] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:19:09.249000 #4104] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:19:09.710000 #4104] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:19:09.780000 #4104] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:19:09.852000 #4104] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:19:09.987000 #4104] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:19:10.192000 #4104] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:19:10.293000 #4104] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:19:10.353000 #4104] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:19:10.444000 #4104] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:19:10.513000 #4104] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:19:10.581000 #4104] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:19:10.679000 #4104] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:19:10.739000 #4104] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:19:10.808000 #4104] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:19:10.958000 #4104] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:19:11.083000 #4104] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:19:11.993000 #4104] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:19:12.077000 #4104] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:19:12.213000 #4104] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:19:12.300000 #4104] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:19:12.359000 #4104] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:19:12.418000 #4104] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:19:12.520000 #4104] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:19:12.643000 #4104] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"", "puntoCardinal"=>"norte"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T20:19:12.781000 #4104] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:19:12.917000 #4104] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:19:13.013000 #4104] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:19:13.093000 #4104] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:19:13.134000 #4104] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:19:13.236000 #4104] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:19:13.310000 #4104] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:19:13.444000 #4104] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:19:13.539000 #4104] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:19:48.107000 #9544] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:19:49.153000 #9544] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:19:49.237000 #9544] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:19:49.464000 #9544] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:19:50.642000 #9544] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:19:50.710000 #9544] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:19:50.802000 #9544] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:19:50.926000 #9544] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:19:51.191000 #9544] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:19:51.267000 #9544] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:19:51.336000 #9544] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:19:51.457000 #9544] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:19:51.520000 #9544] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:19:51.605000 #9544] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:19:51.698000 #9544] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:19:51.767000 #9544] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:19:51.852000 #9544] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:19:52.002000 #9544] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:19:52.226000 #9544] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:19:52.378000 #9544] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:19:52.479000 #9544] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:19:52.626000 #9544] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:19:53.091000 #9544] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:19:53.155000 #9544] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:19:53.279000 #9544] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:19:53.518000 #9544] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:19:53.970000 #9544] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:19:54.159000 #9544] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:19:54.234000 #9544] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:19:54.334000 #9544] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:19:54.431000 #9544] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:19:54.517000 #9544] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:19:54.563000 #9544] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:19:54.613000 #9544] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:19:54.664000 #9544] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:21:03.363000 #1708] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:21:04.496000 #1708] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:21:04.658000 #1708] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:21:05.127000 #1708] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:21:05.629000 #1708] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:21:05.773000 #1708] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:21:05.933000 #1708] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:21:06.179000 #1708] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:21:06.584000 #1708] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:21:06.700000 #1708] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:21:06.795000 #1708] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:21:06.978000 #1708] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:21:07.043000 #1708] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:21:07.246000 #1708] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:21:07.387000 #1708] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:21:07.455000 #1708] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:21:07.523000 #1708] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:21:07.687000 #1708] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:21:08.167000 #1708] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:21:08.269000 #1708] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:21:08.338000 #1708] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:21:08.498000 #1708] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:21:08.750000 #1708] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:21:08.793000 #1708] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:21:08.857000 #1708] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:21:08.952000 #1708] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:21:09.347000 #1708] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:21:09.498000 #1708] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:21:09.557000 #1708] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:21:09.631000 #1708] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:21:09.689000 #1708] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:21:09.792000 #1708] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:21:09.848000 #1708] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:21:09.901000 #1708] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:21:09.956000 #1708] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:24:42.356000 #12708] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:24:43.583000 #12708] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:24:43.685000 #12708] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:24:43.890000 #12708] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:24:44.393000 #12708] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:24:44.455000 #12708] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:24:44.530000 #12708] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:24:44.655000 #12708] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:24:45.015000 #12708] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:24:45.073000 #12708] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:24:45.145000 #12708] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:24:45.256000 #12708] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:24:45.319000 #12708] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:24:45.412000 #12708] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:24:45.506000 #12708] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:24:45.569000 #12708] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:24:45.637000 #12708] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:24:45.857000 #12708] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:24:46.038000 #12708] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:24:46.088000 #12708] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:24:46.150000 #12708] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:24:46.271000 #12708] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:24:46.388000 #12708] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:24:46.452000 #12708] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:24:46.526000 #12708] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:24:46.645000 #12708] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:24:46.840000 #12708] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"", "puntoCardinal"=>"norte"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T20:24:47.003000 #12708] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:24:47.060000 #12708] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:24:47.120000 #12708] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:24:47.247000 #12708] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:24:47.288000 #12708] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:24:47.368000 #12708] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:24:47.445000 #12708] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:24:48.391000 #12708] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:24:48.454000 #12708] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:25:17.743000 #5200] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:25:18.755000 #5200] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:25:18.851000 #5200] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:25:19.037000 #5200] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:25:19.569000 #5200] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:25:19.639000 #5200] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:25:19.720000 #5200] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:25:19.856000 #5200] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:25:20.057000 #5200] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:25:20.143000 #5200] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:25:20.201000 #5200] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:25:20.295000 #5200] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:25:20.379000 #5200] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:25:20.439000 #5200] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:25:20.530000 #5200] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:25:20.599000 #5200] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:25:20.652000 #5200] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:25:20.809000 #5200] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:25:21.068000 #5200] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:25:21.142000 #5200] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:25:21.217000 #5200] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:25:21.334000 #5200] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:25:21.457000 #5200] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:25:21.514000 #5200] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:25:21.582000 #5200] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:25:21.701000 #5200] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:25:21.935000 #5200] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"", "puntoCardinal"=>"norte"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T20:25:22.093000 #5200] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:25:22.164000 #5200] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:25:22.266000 #5200] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:25:22.370000 #5200] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:25:22.416000 #5200] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:25:22.538000 #5200] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:25:22.616000 #5200] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:25:22.669000 #5200] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:25:22.728000 #5200] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:27:54.236000 #5336] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:27:55.277000 #5336] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:27:55.382000 #5336] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:27:55.608000 #5336] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:27:56.289000 #5336] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:27:56.362000 #5336] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:27:56.430000 #5336] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:27:56.560000 #5336] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:27:56.835000 #5336] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:27:56.920000 #5336] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:27:56.999000 #5336] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:27:57.123000 #5336] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:27:57.187000 #5336] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:27:57.283000 #5336] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:27:57.370000 #5336] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:27:57.432000 #5336] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:27:57.499000 #5336] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:27:57.651000 #5336] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:27:57.876000 #5336] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:27:57.932000 #5336] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:27:57.985000 #5336] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:27:58.084000 #5336] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:27:58.165000 #5336] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:27:58.216000 #5336] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:27:58.274000 #5336] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:27:58.386000 #5336] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:27:58.586000 #5336] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"", "puntoCardinal"=>"norte"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T20:27:58.758000 #5336] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:27:58.823000 #5336] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:27:58.888000 #5336] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:27:58.978000 #5336] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:27:59.022000 #5336] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:27:59.176000 #5336] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:27:59.294000 #5336] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:27:59.368000 #5336] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:27:59.448000 #5336] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:33:58.671000 #11576] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:34:00.342000 #11576] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:34:00.435000 #11576] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:34:00.633000 #11576] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"move", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:34:01.047000 #11576] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:34:01.105000 #11576] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:34:01.168000 #11576] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:34:01.302000 #11576] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"move", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:34:01.593000 #11576] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:34:01.660000 #11576] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:34:01.740000 #11576] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:34:01.851000 #11576] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:34:01.908000 #11576] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:34:01.969000 #11576] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:34:02.072000 #11576] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:34:02.152000 #11576] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:34:02.228000 #11576] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:34:02.423000 #11576] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"move", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:34:02.585000 #11576] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:34:02.648000 #11576] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:34:02.706000 #11576] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:34:02.832000 #11576] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"move", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:34:02.935000 #11576] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:34:02.993000 #11576] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:34:03.054000 #11576] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:34:03.196000 #11576] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"move", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:34:03.385000 #11576] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"move", "puntoCardinal"=>"norte"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T20:34:03.691000 #11576] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:34:03.782000 #11576] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:34:03.858000 #11576] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:34:03.962000 #11576] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:34:04.020000 #11576] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:34:04.138000 #11576] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:34:04.192000 #11576] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:34:04.276000 #11576] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:34:04.318000 #11576] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:35:50.698000 #2924] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:35:51.630000 #2924] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:35:51.794000 #2924] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:35:51.992000 #2924] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"move", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:35:52.450000 #2924] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:35:52.521000 #2924] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:35:52.583000 #2924] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:35:52.735000 #2924] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"move", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:35:52.940000 #2924] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:35:53.029000 #2924] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:35:53.112000 #2924] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:35:53.247000 #2924] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:35:53.369000 #2924] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:35:53.452000 #2924] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:35:53.535000 #2924] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:35:53.603000 #2924] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:35:53.667000 #2924] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:35:53.893000 #2924] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"move", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:35:54.016000 #2924] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:35:54.063000 #2924] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:35:54.113000 #2924] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:35:54.221000 #2924] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"move", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:35:54.326000 #2924] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:35:54.372000 #2924] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:35:54.412000 #2924] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:35:54.516000 #2924] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"move", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:35:54.682000 #2924] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"move", "puntoCardinal"=>"norte"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T20:35:54.848000 #2924] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:35:54.906000 #2924] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:35:54.977000 #2924] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:35:55.079000 #2924] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:35:55.146000 #2924] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:35:55.242000 #2924] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:35:55.313000 #2924] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:35:55.415000 #2924] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:35:55.493000 #2924] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:36:42.698000 #13216] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:36:43.694000 #13216] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:36:43.776000 #13216] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:36:43.973000 #13216] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"move", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:36:44.485000 #13216] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:36:44.551000 #13216] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:36:44.614000 #13216] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:36:44.747000 #13216] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"move", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:36:44.973000 #13216] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:36:45.046000 #13216] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:36:45.112000 #13216] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:36:45.225000 #13216] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:36:45.288000 #13216] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:36:45.355000 #13216] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:36:45.451000 #13216] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:36:45.522000 #13216] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:36:45.588000 #13216] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:36:45.737000 #13216] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"move", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:36:45.862000 #13216] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:36:45.911000 #13216] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:36:45.961000 #13216] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:36:46.065000 #13216] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"move", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:36:46.282000 #13216] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:36:46.359000 #13216] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:36:46.435000 #13216] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:36:46.589000 #13216] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"move", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:36:46.753000 #13216] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"mlmlm", "puntoCardinal"=>"norte"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T20:36:47.008000 #13216] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:36:47.071000 #13216] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:36:47.143000 #13216] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:36:47.253000 #13216] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:36:47.320000 #13216] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:36:47.402000 #13216] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:36:47.479000 #13216] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:36:47.554000 #13216] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:36:47.600000 #13216] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:37:51.978000 #884] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:37:52.973000 #884] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:37:53.052000 #884] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:37:53.275000 #884] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:37:53.771000 #884] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:37:53.836000 #884] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:37:53.897000 #884] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:37:54.039000 #884] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:37:54.260000 #884] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:37:54.336000 #884] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:37:54.407000 #884] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:37:54.534000 #884] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:37:54.596000 #884] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:37:54.676000 #884] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:37:54.798000 #884] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:37:54.868000 #884] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:37:54.969000 #884] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:37:55.999000 #884] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:37:56.157000 #884] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:37:56.228000 #884] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:37:56.298000 #884] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:37:56.457000 #884] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:37:56.561000 #884] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:37:56.618000 #884] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:37:56.668000 #884] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:37:56.814000 #884] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:37:56.999000 #884] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"mlmlm", "puntoCardinal"=>"norte"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T20:37:57.259000 #884] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:37:57.331000 #884] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:37:57.440000 #884] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:37:57.529000 #884] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:37:57.613000 #884] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:37:57.752000 #884] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:37:57.824000 #884] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:37:57.877000 #884] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:37:57.932000 #884] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:39:20.802000 #5256] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:39:21.795000 #5256] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:39:21.924000 #5256] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:39:22.124000 #5256] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:39:22.635000 #5256] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:39:22.702000 #5256] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:39:22.765000 #5256] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:39:22.898000 #5256] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:39:23.153000 #5256] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:39:23.257000 #5256] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:39:23.326000 #5256] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:39:23.425000 #5256] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:39:23.483000 #5256] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:39:23.568000 #5256] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:39:23.650000 #5256] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:39:23.711000 #5256] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:39:23.822000 #5256] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:39:24.060000 #5256] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:39:24.315000 #5256] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:39:24.493000 #5256] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:39:24.644000 #5256] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:39:24.943000 #5256] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:39:25.111000 #5256] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:39:25.257000 #5256] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:39:25.317000 #5256] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:39:25.502000 #5256] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:39:25.698000 #5256] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"move", "puntoCardinal"=>"norte"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T20:39:25.938000 #5256] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:39:26.030000 #5256] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:39:26.080000 #5256] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:39:27.023000 #5256] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:39:27.082000 #5256] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:39:27.168000 #5256] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:39:27.233000 #5256] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:39:27.306000 #5256] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:39:27.380000 #5256] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:40:19.400000 #7632] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:40:20.303000 #7632] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:40:20.406000 #7632] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:40:20.594000 #7632] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:40:20.977000 #7632] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:40:21.038000 #7632] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:40:21.095000 #7632] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:40:21.221000 #7632] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:40:21.477000 #7632] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:40:21.553000 #7632] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:40:21.621000 #7632] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:40:21.820000 #7632] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:40:21.882000 #7632] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:40:21.955000 #7632] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:40:22.043000 #7632] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:40:22.109000 #7632] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:40:22.187000 #7632] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:40:22.423000 #7632] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:40:22.542000 #7632] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:40:22.592000 #7632] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:40:22.644000 #7632] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:40:22.763000 #7632] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:40:22.860000 #7632] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:40:22.909000 #7632] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:40:22.960000 #7632] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:40:23.072000 #7632] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:40:23.239000 #7632] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"move", "puntoCardinal"=>"norte"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T20:40:23.409000 #7632] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:40:23.481000 #7632] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:40:23.540000 #7632] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:40:23.627000 #7632] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:40:23.677000 #7632] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:40:23.761000 #7632] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:40:23.839000 #7632] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:40:23.892000 #7632] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:40:23.942000 #7632] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:41:41.702000 #11780] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:41:42.681000 #11780] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:41:42.781000 #11780] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:41:42.970000 #11780] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:41:43.462000 #11780] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:41:43.544000 #11780] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:41:43.613000 #11780] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:41:43.737000 #11780] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:41:43.957000 #11780] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:41:44.063000 #11780] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:41:44.140000 #11780] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:41:44.244000 #11780] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:41:44.301000 #11780] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:41:44.370000 #11780] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:41:44.481000 #11780] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:41:44.613000 #11780] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:41:44.747000 #11780] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:41:45.287000 #11780] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:41:45.585000 #11780] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:41:45.701000 #11780] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:41:45.799000 #11780] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:41:46.843000 #11780] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:41:46.946000 #11780] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:41:47.038000 #11780] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:41:47.101000 #11780] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:41:47.198000 #11780] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:41:47.393000 #11780] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"move", "puntoCardinal"=>"norte"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T20:41:47.639000 #11780] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:41:47.708000 #11780] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:41:47.767000 #11780] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:41:47.846000 #11780] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:41:47.891000 #11780] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:41:47.978000 #11780] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:41:48.036000 #11780] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:41:48.106000 #11780] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:41:48.144000 #11780] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:42:34.077000 #5016] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:42:35.007000 #5016] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:42:35.102000 #5016] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:42:35.309000 #5016] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:42:35.708000 #5016] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:42:35.781000 #5016] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:42:35.849000 #5016] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:42:36.104000 #5016] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:42:36.360000 #5016] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:42:36.480000 #5016] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:42:36.553000 #5016] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:42:36.663000 #5016] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:42:36.732000 #5016] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:42:36.832000 #5016] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:42:36.946000 #5016] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:42:37.042000 #5016] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:42:37.127000 #5016] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:42:37.277000 #5016] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:42:37.407000 #5016] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:42:37.486000 #5016] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:42:37.537000 #5016] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:42:37.633000 #5016] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:42:37.725000 #5016] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:42:37.774000 #5016] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:42:37.822000 #5016] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:42:38.697000 #5016] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:42:38.834000 #5016] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"move", "puntoCardinal"=>"norte"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T20:42:39.032000 #5016] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:42:39.139000 #5016] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:42:39.217000 #5016] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:42:39.285000 #5016] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:42:39.348000 #5016] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:42:39.427000 #5016] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:42:39.476000 #5016] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:42:39.535000 #5016] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:42:39.579000 #5016] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:45:59.183000 #9248] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:46:00.216000 #9248] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:46:00.303000 #9248] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:46:00.511000 #9248] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:46:01.862000 #9248] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:46:01.953000 #9248] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:46:02.036000 #9248] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:46:02.194000 #9248] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:46:02.438000 #9248] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:46:02.598000 #9248] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:46:02.673000 #9248] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:46:02.790000 #9248] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:46:02.868000 #9248] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:46:03.000000 #9248] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:46:03.256000 #9248] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:46:03.387000 #9248] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:46:03.539000 #9248] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:46:03.822000 #9248] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:46:04.056000 #9248] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:46:04.110000 #9248] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:46:04.246000 #9248] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:46:04.369000 #9248] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:46:04.641000 #9248] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:46:04.697000 #9248] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:46:04.778000 #9248] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:46:04.928000 #9248] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:46:05.170000 #9248] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"move", "puntoCardinal"=>"norte"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T20:46:05.343000 #9248] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:46:05.399000 #9248] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:46:05.443000 #9248] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:46:05.513000 #9248] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:46:05.549000 #9248] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:46:05.638000 #9248] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:46:05.695000 #9248] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:46:05.747000 #9248] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:46:05.790000 #9248] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:47:24.956000 #2992] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:47:26.067000 #2992] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:47:26.155000 #2992] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:47:26.361000 #2992] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:47:26.928000 #2992] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:47:26.984000 #2992] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:47:27.049000 #2992] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:47:27.172000 #2992] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:47:27.412000 #2992] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:47:27.484000 #2992] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:47:27.579000 #2992] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:47:27.681000 #2992] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:47:27.745000 #2992] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:47:27.821000 #2992] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:47:27.908000 #2992] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:47:27.967000 #2992] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:47:28.029000 #2992] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:47:28.153000 #2992] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:47:28.308000 #2992] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:47:28.363000 #2992] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:47:28.553000 #2992] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:47:28.656000 #2992] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:47:28.748000 #2992] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:47:28.816000 #2992] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:47:28.870000 #2992] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:47:29.073000 #2992] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:47:29.192000 #2992] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"move", "puntoCardinal"=>"norte"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T20:47:29.392000 #2992] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:47:29.481000 #2992] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:47:29.547000 #2992] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:47:29.630000 #2992] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:47:29.677000 #2992] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:47:29.768000 #2992] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:47:29.838000 #2992] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:47:30.675000 #2992] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:47:30.721000 #2992] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:50:24.545000 #12144] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:50:25.812000 #12144] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:50:25.927000 #12144] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:50:27.232000 #12144] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:50:27.588000 #12144] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:50:27.715000 #12144] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:50:27.864000 #12144] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:50:28.100000 #12144] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:50:28.332000 #12144] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:50:28.466000 #12144] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:50:28.564000 #12144] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:50:28.736000 #12144] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:50:28.822000 #12144] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:50:28.924000 #12144] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:50:29.088000 #12144] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:50:29.216000 #12144] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:50:29.357000 #12144] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:50:29.573000 #12144] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:50:29.846000 #12144] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:50:29.921000 #12144] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:50:29.983000 #12144] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:50:30.237000 #12144] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:50:30.435000 #12144] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:50:30.517000 #12144] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:50:30.598000 #12144] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:50:30.862000 #12144] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:50:31.680000 #12144] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"move", "puntoCardinal"=>"norte"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T20:50:31.943000 #12144] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:50:32.015000 #12144] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:50:32.093000 #12144] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:50:32.200000 #12144] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:50:32.256000 #12144] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:50:32.339000 #12144] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:50:32.378000 #12144] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:50:32.425000 #12144] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:50:32.455000 #12144] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:54:28.776000 #3612] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:54:30.206000 #3612] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:54:30.308000 #3612] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:54:30.523000 #3612] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:54:30.733000 #3612] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:54:30.813000 #3612] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:54:30.884000 #3612] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:54:31.020000 #3612] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:54:31.276000 #3612] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:54:31.344000 #3612] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:54:31.400000 #3612] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:54:31.481000 #3612] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:54:31.553000 #3612] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:54:31.631000 #3612] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:54:31.739000 #3612] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:54:31.819000 #3612] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:54:31.929000 #3612] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:54:32.074000 #3612] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:54:32.211000 #3612] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:54:32.268000 #3612] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:54:32.333000 #3612] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:54:32.450000 #3612] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:54:32.552000 #3612] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:54:32.600000 #3612] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:54:32.657000 #3612] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:54:32.791000 #3612] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:54:33.759000 #3612] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"move", "puntoCardinal"=>"norte"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T20:54:34.074000 #3612] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:54:34.160000 #3612] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:54:34.234000 #3612] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:54:34.363000 #3612] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:54:34.422000 #3612] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:54:34.511000 #3612] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:54:34.572000 #3612] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:54:34.648000 #3612] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:54:34.700000 #3612] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:55:11.425000 #4636] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:55:12.539000 #4636] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:55:12.638000 #4636] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:55:12.854000 #4636] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:55:13.082000 #4636] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:55:13.163000 #4636] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:55:13.225000 #4636] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:55:13.439000 #4636] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:55:13.583000 #4636] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:55:13.645000 #4636] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:55:13.711000 #4636] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:55:13.817000 #4636] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:55:13.912000 #4636] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:55:14.017000 #4636] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:55:14.124000 #4636] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:55:14.220000 #4636] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:55:14.375000 #4636] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:55:14.548000 #4636] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:55:14.709000 #4636] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:55:14.873000 #4636] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:55:15.002000 #4636] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:55:15.183000 #4636] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:55:15.418000 #4636] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:55:15.479000 #4636] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:55:15.558000 #4636] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:55:15.710000 #4636] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:55:15.938000 #4636] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"move", "puntoCardinal"=>"norte"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T20:55:16.820000 #4636] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:55:16.896000 #4636] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:55:17.006000 #4636] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:55:17.146000 #4636] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:55:17.200000 #4636] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:55:17.268000 #4636] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:55:17.344000 #4636] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:55:17.417000 #4636] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:55:17.476000 #4636] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:55:50.997000 #7608] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:55:52.106000 #7608] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:55:52.200000 #7608] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:55:52.464000 #7608] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:55:53.092000 #7608] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:55:53.157000 #7608] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:55:53.221000 #7608] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:55:53.398000 #7608] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:55:54.202000 #7608] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:55:54.287000 #7608] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:55:54.345000 #7608] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:55:54.469000 #7608] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:55:54.526000 #7608] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:55:54.648000 #7608] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:55:54.753000 #7608] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:55:54.830000 #7608] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:55:54.912000 #7608] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:55:55.081000 #7608] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:55:55.205000 #7608] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:55:55.273000 #7608] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:55:55.354000 #7608] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:55:55.540000 #7608] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:55:55.723000 #7608] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:55:55.827000 #7608] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:55:55.912000 #7608] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:55:56.142000 #7608] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:55:56.438000 #7608] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"move", "puntoCardinal"=>"norte"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T20:55:58.834000 #7608] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:55:58.935000 #7608] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:55:58.997000 #7608] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:55:59.111000 #7608] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:55:59.226000 #7608] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:55:59.317000 #7608] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:55:59.394000 #7608] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:55:59.492000 #7608] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:55:59.553000 #7608] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:56:33.008000 #4928] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:56:34.325000 #4928] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:56:34.438000 #4928] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:56:34.718000 #4928] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:56:35.029000 #4928] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:56:35.121000 #4928] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:56:35.188000 #4928] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:56:35.346000 #4928] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "jugada"=>"", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:56:35.484000 #4928] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:56:35.577000 #4928] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:56:35.641000 #4928] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:56:35.770000 #4928] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:56:35.879000 #4928] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:56:36.062000 #4928] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:56:36.187000 #4928] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:56:36.387000 #4928] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:56:36.492000 #4928] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:56:37.679000 #4928] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:56:37.831000 #4928] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:56:37.888000 #4928] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:56:37.978000 #4928] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:56:38.259000 #4928] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:56:38.444000 #4928] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:56:38.524000 #4928] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:56:38.595000 #4928] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:56:38.713000 #4928] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:56:38.966000 #4928] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "jugada"=>"move", "puntoCardinal"=>"norte"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T20:56:39.151000 #4928] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:56:39.268000 #4928] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:56:39.346000 #4928] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:56:39.453000 #4928] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T20:56:39.574000 #4928] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:56:39.703000 #4928] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T20:56:39.765000 #4928] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T20:56:39.849000 #4928] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T20:56:39.904000 #4928] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:01:58.625000 #10292] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:01:59.785000 #10292] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:01:59.891000 #10292] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:02:00.107000 #10292] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:02:00.330000 #10292] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:02:00.411000 #10292] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:02:00.483000 #10292] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:02:00.628000 #10292] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"arrow", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:02:00.774000 #10292] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:02:00.835000 #10292] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:02:00.906000 #10292] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:02:01.011000 #10292] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:02:01.072000 #10292] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:02:01.162000 #10292] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:02:01.265000 #10292] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:02:01.333000 #10292] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:02:02.130000 #10292] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:02:02.285000 #10292] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:02:02.397000 #10292] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:02:02.446000 #10292] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:02:02.541000 #10292] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:02:02.636000 #10292] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:02:02.756000 #10292] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:02:02.798000 #10292] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:02:02.848000 #10292] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:02:02.947000 #10292] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:02:03.087000 #10292] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"option"=>"move", "puntoCardinal"=>"norte"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T21:02:03.301000 #10292] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:02:03.424000 #10292] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:02:03.517000 #10292] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:02:03.652000 #10292] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:02:03.742000 #10292] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:02:03.814000 #10292] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:02:03.865000 #10292] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:02:03.961000 #10292] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:02:04.011000 #10292] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:07:28.015000 #11316] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:07:29.249000 #11316] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:07:29.341000 #11316] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:07:29.543000 #11316] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"arrow", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:07:29.755000 #11316] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:07:29.839000 #11316] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:07:29.922000 #11316] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:07:30.086000 #11316] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"arrow", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:07:30.310000 #11316] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:07:30.390000 #11316] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:07:30.455000 #11316] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:07:30.583000 #11316] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:07:30.639000 #11316] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:07:30.753000 #11316] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:07:30.857000 #11316] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:07:30.912000 #11316] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:07:31.069000 #11316] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:07:31.255000 #11316] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"move", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:07:31.462000 #11316] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:07:31.566000 #11316] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:07:31.636000 #11316] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:07:31.821000 #11316] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"move", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:07:31.968000 #11316] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:07:32.026000 #11316] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:07:32.123000 #11316] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:07:32.270000 #11316] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"move", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:07:32.492000 #11316] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"move", "puntoCardinal"=>"norte"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T21:07:33.582000 #11316] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:07:33.654000 #11316] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:07:33.742000 #11316] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:07:33.903000 #11316] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:07:33.990000 #11316] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:07:34.062000 #11316] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:07:34.145000 #11316] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:07:34.235000 #11316] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:07:34.281000 #11316] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:08:13.858000 #12824] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:08:15.005000 #12824] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:08:15.105000 #12824] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:08:15.290000 #12824] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"arrow", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:08:15.566000 #12824] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:08:15.632000 #12824] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:08:15.699000 #12824] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:08:15.876000 #12824] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"arrow", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:08:16.033000 #12824] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:08:16.134000 #12824] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:08:16.235000 #12824] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:08:16.391000 #12824] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"arrow", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:08:16.519000 #12824] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"arrow", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T21:08:16.630000 #12824] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"arrow", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T21:08:16.768000 #12824] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:08:16.840000 #12824] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:08:16.909000 #12824] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:08:17.066000 #12824] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:08:17.196000 #12824] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:08:17.256000 #12824] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:08:17.341000 #12824] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:08:17.406000 #12824] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:08:17.458000 #12824] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:08:17.542000 #12824] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"move", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:08:17.643000 #12824] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:08:17.696000 #12824] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:08:17.789000 #12824] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:08:18.000000 #12824] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"move", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:08:18.121000 #12824] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:08:18.216000 #12824] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:08:18.374000 #12824] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:08:18.606000 #12824] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"move", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:08:18.730000 #12824] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"move", "puntoCardinal"=>"norte"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T21:08:18.952000 #12824] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:08:19.187000 #12824] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:08:19.265000 #12824] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:08:19.337000 #12824] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:08:19.369000 #12824] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:08:19.422000 #12824] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:08:19.475000 #12824] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:08:19.530000 #12824] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:08:19.593000 #12824] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:12:18.451000 #7296] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:12:19.770000 #7296] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:12:19.894000 #7296] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:12:20.016000 #7296] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:12:20.064000 #7296] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:12:20.182000 #7296] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:12:20.282000 #7296] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:12:20.359000 #7296] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:12:20.425000 #7296] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:12:20.593000 #7296] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:12:20.706000 #7296] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:12:20.850000 #7296] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:12:21.325000 #7296] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:12:21.413000 #7296] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:12:21.474000 #7296] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:12:21.703000 #7296] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:12:21.787000 #7296] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:12:21.910000 #7296] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:12:22.116000 #7296] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"move", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:12:22.311000 #7296] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:12:22.389000 #7296] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:12:22.496000 #7296] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:12:22.683000 #7296] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"move", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:12:23.722000 #7296] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:12:23.813000 #7296] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:12:23.894000 #7296] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:12:24.051000 #7296] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"move", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:12:24.208000 #7296] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"move", "puntoCardinal"=>"norte"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T21:12:24.343000 #7296] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:12:24.411000 #7296] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:12:24.498000 #7296] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:12:24.634000 #7296] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"arrow", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:12:24.847000 #7296] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:12:24.940000 #7296] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:12:25.003000 #7296] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:12:25.116000 #7296] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"arrow", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:12:25.235000 #7296] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:12:25.360000 #7296] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:12:25.483000 #7296] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:12:25.749000 #7296] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"arrow", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:12:25.900000 #7296] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"arrow", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T21:12:26.249000 #7296] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:12:26.322000 #7296] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:12:26.393000 #7296] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:12:26.496000 #7296] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"arrow", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:12:26.616000 #7296] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"arrow", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T21:12:26.731000 #7296] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"arrow", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T21:13:58.565000 #13192] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:13:59.637000 #13192] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:13:59.735000 #13192] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:13:59.916000 #13192] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:13:59.975000 #13192] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:14:00.071000 #13192] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:14:00.135000 #13192] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:14:00.209000 #13192] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:14:00.266000 #13192] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:14:00.349000 #13192] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:14:00.405000 #13192] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:14:00.457000 #13192] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:14:00.627000 #13192] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:14:00.719000 #13192] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:14:01.130000 #13192] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:14:01.276000 #13192] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:14:01.347000 #13192] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:14:01.463000 #13192] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:14:01.621000 #13192] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"move", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:14:01.750000 #13192] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:14:01.839000 #13192] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:14:01.904000 #13192] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:14:02.847000 #13192] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"move", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:14:02.929000 #13192] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:14:02.995000 #13192] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:14:03.059000 #13192] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:14:03.156000 #13192] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"move", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:14:03.332000 #13192] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"move", "puntoCardinal"=>"norte"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T21:14:03.448000 #13192] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:14:03.537000 #13192] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:14:03.591000 #13192] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:14:03.734000 #13192] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"arrow", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:14:03.906000 #13192] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:14:03.975000 #13192] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:14:04.033000 #13192] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:14:04.148000 #13192] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"arrow", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:14:04.306000 #13192] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:14:04.401000 #13192] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:14:04.462000 #13192] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:14:04.589000 #13192] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"arrow", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:14:04.787000 #13192] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"arrow", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T21:14:05.010000 #13192] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:14:05.091000 #13192] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:14:05.150000 #13192] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:14:05.261000 #13192] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"arrow", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:14:05.357000 #13192] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"arrow", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T21:14:05.446000 #13192] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"arrow", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T21:17:48.039000 #10592] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:17:49.213000 #10592] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:17:49.315000 #10592] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:17:49.445000 #10592] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:17:49.503000 #10592] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:17:49.603000 #10592] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:17:49.655000 #10592] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:17:49.738000 #10592] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:17:49.811000 #10592] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:17:49.903000 #10592] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:17:49.977000 #10592] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:17:50.057000 #10592] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:17:50.227000 #10592] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:17:50.320000 #10592] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:17:50.401000 #10592] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:17:50.501000 #10592] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:17:50.562000 #10592] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:17:50.762000 #10592] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:17:50.973000 #10592] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"move", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:17:51.300000 #10592] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:17:51.405000 #10592] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:17:51.484000 #10592] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:17:51.691000 #10592] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"move", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:17:51.827000 #10592] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:17:51.925000 #10592] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:17:52.042000 #10592] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:17:52.265000 #10592] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"move", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:17:52.516000 #10592] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"move", "puntoCardinal"=>"norte"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T21:17:52.714000 #10592] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:17:52.782000 #10592] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:17:52.849000 #10592] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:17:52.970000 #10592] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"arrow", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:17:53.091000 #10592] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:17:53.229000 #10592] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:17:53.319000 #10592] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:17:53.417000 #10592] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"arrow", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:17:53.486000 #10592] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:17:53.554000 #10592] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:17:53.652000 #10592] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:17:53.785000 #10592] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"arrow", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:17:53.893000 #10592] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"arrow", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T21:17:54.019000 #10592] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:17:54.097000 #10592] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:17:54.155000 #10592] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:17:54.265000 #10592] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"arrow", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:17:54.358000 #10592] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"arrow", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T21:17:54.451000 #10592] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"arrow", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T21:25:59.095000 #8356] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:26:00.241000 #8356] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:26:00.344000 #8356] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:26:00.472000 #8356] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:26:00.531000 #8356] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:26:00.637000 #8356] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:26:00.716000 #8356] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:26:00.792000 #8356] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:26:00.853000 #8356] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:26:00.930000 #8356] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:26:01.002000 #8356] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:26:01.162000 #8356] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:26:01.371000 #8356] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:26:01.456000 #8356] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:26:01.523000 #8356] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:26:01.637000 #8356] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:26:01.716000 #8356] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:26:01.793000 #8356] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:26:01.961000 #8356] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"move", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:26:02.114000 #8356] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:26:02.178000 #8356] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:26:02.239000 #8356] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:26:02.347000 #8356] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"move", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:26:02.476000 #8356] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:26:02.568000 #8356] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:26:02.623000 #8356] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:26:02.740000 #8356] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"move", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:26:02.905000 #8356] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"move", "puntoCardinal"=>"norte"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T21:26:03.007000 #8356] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:26:03.063000 #8356] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:26:03.905000 #8356] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:26:04.040000 #8356] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"arrow", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:26:04.179000 #8356] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:26:04.263000 #8356] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:26:04.318000 #8356] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:26:04.406000 #8356] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"arrow", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:26:04.495000 #8356] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:26:04.546000 #8356] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:26:04.659000 #8356] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:26:04.860000 #8356] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"arrow", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:26:05.001000 #8356] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"arrow", "puntoCardinal"=>"oeste"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T21:26:05.144000 #8356] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2017-11-19T21:26:05.255000 #8356] DEBUG -- : REQUESTING PAGE: GET /gameOption with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2017-11-19T21:26:05.354000 #8356] DEBUG -- : REQUESTING PAGE: POST /gameCaverns with {} and HTTP headers {"HTTP_REFERER"=>"/gameOption"}
+D, [2017-11-19T21:26:05.490000 #8356] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"arrow", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/gameCaverns"}
+D, [2017-11-19T21:26:05.603000 #8356] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"arrow", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}
+D, [2017-11-19T21:26:05.728000 #8356] DEBUG -- : REQUESTING PAGE: POST /optionPlay with {"jugada"=>"arrow", "puntoCardinal"=>"sur"} and HTTP headers {"HTTP_REFERER"=>"/optionPlay"}

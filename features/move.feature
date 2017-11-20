@@ -29,5 +29,6 @@ Scenario:
 		And presiono el boton "MapaPredeterminado"
 		And selecciono la jugada "jugadaMover" 
 		And presiono el boton "oeste"
+		And selecciono la jugada "jugadaMover"
 		And presiono el boton "norte" 
 		Then deberia mostrar "Estas en la caverna 11"

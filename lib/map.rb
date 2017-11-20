@@ -101,6 +101,10 @@ class Map
 	def reportNumberArrows
 		return "Numero de flechas "+@player.getArrows.to_s
 	end
+
+	def reportMonsterIsNear
+		return "¡Olor extraño!,¡El monstruo está cerca!"
+	end
 	
 	def hasAccessToNorth
 		return @caverns[@player.getPos_x][@player.getPos_y].getUpAccess

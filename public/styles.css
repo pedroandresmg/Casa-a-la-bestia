@@ -1,9 +1,24 @@
+.home {
+    font-family: cursive, fantasy;
+    font-size: 45px;
+    color: white;
+    background: #000010
+}
+
 .radio {
     height: 30px;
     width: 30px;
     margin-bottom: 15px;
     cursor: pointer;
     vertical-align: middle;
+}
+
+.noLikeButton {
+    padding: 0;
+    border: none;
+    background: none;
+    color: white;
+    font-size: 30px;
 }
 
 .button {

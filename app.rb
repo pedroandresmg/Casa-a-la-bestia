@@ -23,7 +23,8 @@ end
 
 post '/gameCaverns' do
 	$partida = Map.new()
-	$valjugada="move" 
+	$jugada="move" 
+	$messageMonsterAlert = $partida.reportMonsterIsNear 
 	$posPlayer = $partida.reportPosicionPlayer 
 	$arrowPlayer = $partida.reportNumberArrows
 	$hasAccessToNorth = $partida.hasAccessToNorth
@@ -33,15 +34,13 @@ post '/gameCaverns' do
 	$monsterAlert = $partida.isTheMonsterNear
 	erb :gameCaverns  
 end  
+ 
 
 post '/optionPlay' do
-	$jugada=params[:jugada].to_s
+	$jugada=params[:jugada]
 	@puntoCardinal=params[:puntoCardinal].to_s
-	$valjugada=params[:jugada].to_s
-	$messageMonsterAlert = "¡Olor extraño!,¡El monstruo está cerca!"
 	$partida.setAlertsToCavernsAboutMonster 
-	#puts("jugada: "+$jugada+" "+@puntoCardinal+" POSITION ANTES "+$partida.getPlayer.getPos_x.to_s+" "+$partida.getPlayer.getPos_y.to_s) 
- 	if ($jugada == 'arrow') 
+	if ($jugada == 'arrow') 
 		if (@puntoCardinal == 'norte')
 			$partida.shootToNorth
 		elsif (@puntoCardinal == 'este')
@@ -83,7 +82,6 @@ post '/optionPlay' do
 	else 
 		$partida.collectArrow
 		$posPlayer = $partida.reportPosicionPlayer()
-		#puts("jugada: "+$jugada+" "+@puntoCardinal+" POSITION DES "+$partida.getPlayer.getPos_x.to_s+" "+$partida.getPlayer.getPos_y.to_s) 
 		$arrowPlayer= $partida.reportNumberArrows()
 		$hasAccessToNorth = $partida.hasAccessToNorth
 		$hasAccessToEast = $partida.hasAccessToEast
