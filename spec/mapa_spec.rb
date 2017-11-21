@@ -32,30 +32,22 @@ describe Map do
 	end
 
 	it "should the player move to the west " do
-		if(@game.hasAccessToWest)
-			@game.moveToWest
-		end
+		@game.movePlayerToWest
 		expect(@game.getPlayer.getPos_y()).to eq(2)
 	end
 
 	it "should the player move to the south " do
-		if(@game.hasAccessToSouth)
-			@game.moveToSouth
-		end
+		@game.movePlayerToSouth
 		expect(@game.getPlayer.getPos_x()).to eq(3)
 	end
 
 	it "shouldn't the player move to the north " do
-		if(@game.hasAccessToNorth)
-			@game.moveToNorth	
-		end
+		@game.movePlayerToNorth
 		expect(@game.getPlayer.getPos_x()).to eq(2)
 	end
 
 	it "shouldn't the player move to the east " do
-		if(@game.hasAccessToEast)
-			@game.moveToEast
-		end	
+		@game.movePlayerToEast
 		expect(@game.getPlayer.getPos_y()).to eq(3)
 	end
 

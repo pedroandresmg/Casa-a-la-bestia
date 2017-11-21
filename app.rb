@@ -40,8 +40,8 @@ end
 
 post '/optionPlay' do
 	$jugada=params[:jugada]
-	@puntoCardinal=params[:puntoCardinal].to_s
-	$moverMonstruo=params[:moverMonstruo].to_S
+	@puntoCardinal=params[:puntoCardinal]
+	$moverMonstruo=params[:moverMonstruo]
 	$partida.setAlertsToCavernsAboutMonster
 	$monsterDeathByArrow=true 
 	if ($jugada == 'arrow') 

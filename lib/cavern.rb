@@ -12,14 +12,11 @@ class Cavern
 		@batAltert = false
 		@monsterAlert = false
 		@hasAPit = false
-		@Arrows = 0
-		@hasAnSpray = false
+		@Arrows = [0,1].sample 
+		@hasAnSpray = [true,false].sample
 		@hasThemonster = false
 
-	end
-
-	
-
+	end 
 
 	def getItsActive
 		return @itsActive

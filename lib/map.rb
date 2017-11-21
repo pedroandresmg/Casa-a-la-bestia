@@ -142,6 +142,30 @@ class Map
 		@player.moveToEast
 	end
 
+	def movePlayerToNorth
+		if(self.hasAccessToNorth==true)
+			self.moveToNorth	
+		end
+	end
+
+	def movePlayerToSouth
+		if(self.hasAccessToSouth==true)
+			self.moveToSouth
+		end	
+	end
+
+	def movePlayerToWest
+		if(self.hasAccessToWest==true)
+			self.moveToWest
+		end	
+	end
+
+	def movePlayerToEast
+		if(self.hasAccessToEast==true)
+			self.moveToEast
+		end	
+	end
+
 	def collectArrow 
 		@player.setArrows =@player.getArrows.to_i  + @caverns[@player.getPos_x][@player.getPos_y].getArrowsCavern.to_i
 		@caverns[@player.getPos_x][@player.getPos_y].setArrowsCavern = 0
