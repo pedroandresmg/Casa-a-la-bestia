@@ -121,17 +121,15 @@ describe Map do
 		@game.moveToWest
 		@game.moveToWest
 		@game.collectArrow
-		expect(@game.getPlayer.getArrows()).to eq(3)
+		expect(@game.getPlayer.getArrows()).to eq(4)
 	end
 
 
 	it "the player should smell the monster" do
-		@game.setAlertsToCavernsAboutMonster
 		expect(@game.isTheMonsterNear()).to eq(true)
 	end
 
 	it "should show that you smell the monster" do
-		@game.setAlertsToCavernsAboutMonster
 		expect(@game.reportMonsterIsNear()).to eq("¡Olor extraño!,¡El monstruo está cerca!") 
 	end
 

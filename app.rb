@@ -42,8 +42,12 @@ post '/optionPlay' do
 	$jugada=params[:jugada]
 	@puntoCardinal=params[:puntoCardinal]
 	$moverMonstruo=params[:moverMonstruo]
-	$partida.setAlertsToCavernsAboutMonster
 	$monsterDeathByArrow=true 
+
+	if ($moverMonstruo == 'monsterMove')
+		$partida.monsterRandomMove
+	end
+	
 	if ($jugada == 'arrow') 
 		if (@puntoCardinal == 'norte')
 			$partida.shootToNorth 

@@ -247,31 +247,28 @@ class Map
 		return @caverns[@monster.getPos_x][@monster.getPos_y].getLeftAccess
 	end
 
-	def setAlertsToCavernsAboutMonster
-		@caverns[@monster.getPos_x][@monster.getPos_y].setHasTheMonster = true
-		if (self.monsterHasAccessToNorth == true)
-			@caverns[(@monster.getPos_x)-1][@monster.getPos_y].setMonsterAlert = true
-		end
-
-		if (self.monsterHasAccessToSouth == true)
-			@caverns[(@monster.getPos_x)+1][(@monster.getPos_y)].setMonsterAlert = true
-		end
-
-		if (self.monsterHasAccessToEast == true)
-			@caverns[(@monster.getPos_x)][(@monster.getPos_y)+1].setMonsterAlert = true
-		end
-
-		if (self.monsterHasAccessToWest == true)
-			@caverns[(@monster.getPos_x)][(@monster.getPos_y)-1].setMonsterAlert = true
-		end
-	end
+	
 
 	def isTheMonsterNear
-		if (@caverns[(@player.getPos_x)][@player.getPos_y].getMonsterAlert == true)
-			return true
-		else
-			return false
-		end
+
+		
+			if (@player.getPos_x == @monster.getPos_x + 1 && @player.getPos_y == @monster.getPos_y)
+				return true
+			end
+	
+			if (@player.getPos_y == @monster.getPos_y + 1 && @player.getPos_x == @monster.getPos_x)
+				return true
+			end
+		
+		
+			if (@player.getPos_y == @monster.getPos_y - 1 && @player.getPos_x == @monster.getPos_x)
+				return true
+			end
+		
+			if (@player.getPos_x == @monster.getPos_x - 1 && @player.getPos_y == @monster.getPos_y)
+				return true
+			end
+		return false
 	end
 
 
@@ -310,7 +307,7 @@ class Map
 
 
 	def monsterRandomMove
-		@random = 1 + rand(3)
+		@random = 1 + rand(4)
 
 		if (@random == 1)
 			if (self.monsterHasAccessToNorth == true)
