@@ -20,6 +20,38 @@
     vertical-align: middle;
 }
 
+.radioOn {
+    height: 30px;
+    width: 30px;
+    margin-bottom: 16px;
+    cursor: pointer;
+    vertical-align: middle;
+    float: right;
+}
+
+.radioOff {
+    height: 30px;
+    width: 30px;
+    margin-bottom: 16px;
+    cursor: pointer;
+    vertical-align: middle;
+    float: right;
+}
+
+.labelMonsterOn {
+    font-size: 22px;
+    font-weight: bold;
+    top: 150px;
+    right: 50px;
+}
+
+.labeMonsterOff {
+    font-size: 22px;
+    font-weight: bold;
+    top: 200px;
+    right: 50px;
+}
+
 .zelda {
     color: white;
     font-size: 30px;

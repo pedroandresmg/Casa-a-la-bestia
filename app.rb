@@ -23,7 +23,8 @@ end
 
 post '/gameCaverns' do
 	$partida = Map.new()
-	$jugada="move" 
+	$jugada="move"
+	$moverMonstruo="monsterMove" 
 	$monsterDeathByArrow=true  
 	$messageMonsterAlert = $partida.reportMonsterIsNear 
 	$posPlayer = $partida.reportPosicionPlayer 
@@ -40,6 +41,7 @@ end
 post '/optionPlay' do
 	$jugada=params[:jugada]
 	@puntoCardinal=params[:puntoCardinal].to_s
+	$moverMonstruo=params[:moverMonstruo].to_S
 	$partida.setAlertsToCavernsAboutMonster
 	$monsterDeathByArrow=true 
 	if ($jugada == 'arrow') 

@@ -6,8 +6,13 @@
 </form>
 Usando Mapa predeterminado 
 <h1> Caza al monstruo</h1>
-<h3> Jugada: </h3>
-<form action="/optionPlay" method="post">
+<form action="/optionPlay" method="post"> 
+<h3>Movimiento aleatorio del monstruo</h3>
+  <input type="radio" id="monstruoOn" name="moverMonstruo" value="monsterMove" onclick="checkMoverMonstruo()" class="radio">
+  <label style="font-size: 22px;font-weight: bold;">Activar</label>
+  <input type="radio" id="monstruoOff" name="moverMonstruo" value="monsterDontMove" onclick="checkNoMoverMonstruo()" class="radio">
+  <label style="font-size: 22px;font-weight: bold;">Desactivar</label>
+<h3> Jugada: </h3>  
   <input type="radio" id="jugadaMover" name="jugada" value="move" onclick="checkMover()" class="radio">
   <label style="font-size:22px;font-weight: bold;">Mover</label><br>
   <input type="radio" id="jugadaFlecha" name="jugada" value="arrow" onclick="checkFlecha()" class="radio">
@@ -41,7 +46,6 @@ Usando Mapa predeterminado
   		<button type="submit" name="puntoCardinal" value="sur" disabled  class="button buttonSur2">Sur</button>
   <% end %> 
 </form> 
-<br>
 <label style="font-family: Monospace, Lucida Console;font-weight: bold;font-size: 17px;">
 <%=$posPlayer%>
 </label>
@@ -62,24 +66,27 @@ Usando Mapa predeterminado
 <% end %>  
 <br> 
 <script>
-function checkMover()
-{
+function checkMover(){
   document.getElementById("jugadaMover").checked=true;
 }
 
-function checkFlecha()
-{
+function checkFlecha(){
   document.getElementById("jugadaFlecha").checked=true;
 }
 
-function checkSpray()
-{
+function checkSpray(){
   document.getElementById("jugadaSpray").checked=true;
 }
 
+function checkMoverMonstruo(){
+  document.getElementById("monstruoOn").checked=true;
+}
 
-function loadRadioButton()
-{
+function checkNoMoverMonstruo(){
+  document.getElementById("monstruoOff").checked=true;
+}
+
+function loadRadioButton(){
   var optionPlay='<%=$jugada%>';
   if(optionPlay=='arrow'){
     document.getElementById("jugadaFlecha").click();
@@ -87,8 +94,18 @@ function loadRadioButton()
     document.getElementById("jugadaSpray").click();
   }else{  
     document.getElementById("jugadaMover").click();
-  } 
+  }  
+}
+
+function loadRadioButtonMonster(){ 
+  var optionMonsterMove ='<%=$moverMonstruo%>';
+  if(optionMonsterMove=='monsterDontMove') {
+    document.getElementById("monstruoOff").click();
+  }else{
+    document.getElementById("monstruoOn").click();
+  }
 }
 window.onload=loadRadioButton();
+window.onload=loadRadioButtonMonster();
 </script> 
 </body>
