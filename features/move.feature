@@ -32,3 +32,26 @@ Scenario:
 		And selecciono la jugada "jugadaMover"
 		And presiono el boton "norte" 
 		Then deberia mostrar "Estas en la caverna 11"
+
+Scenario: 
+		Given visito la pagina de inicio
+		And presiono el link "Jugar"
+		And presiono el boton "MapaPredeterminado"
+		And selecciono la jugada "jugadaMover" 
+		And presiono el boton "oeste"
+		And selecciono la jugada "jugadaMover"
+		And presiono el boton "este" 
+		Then deberia mostrar "Estas en la caverna 20"
+
+Scenario: 
+		Given visito la pagina de juego
+		And Se seleccion "monstruoOff" 
+		And selecciono la jugada "jugadaMover" 
+		And presiono el boton "sur"
+		And selecciono la jugada "jugadaMover"
+		And presiono el boton "sur" 
+		And selecciono la jugada "jugadaMover"
+		And presiono el boton "sur"
+		And selecciono la jugada "jugadaMover"
+		And presiono el boton "oeste"
+		Then deberia mostrar "¡Olor extraño!,¡El monstruo está cerca!"

@@ -28,10 +28,10 @@ class Map
 		@cavern_1_6=Cavern.new(true,15,true,true,false,true)	
 		@cavern_1_7=Cavern.new(true,16,false,true,false,true)	
 
-		@cavern_2_0=Cavern.new(true,17,false,false,true,false)	
-		@cavern_2_1=Cavern.new(true,18,true,true,true,false)	
+		@cavern_2_0=Cavern.new(true,17,false,false,true,false) 	
+		@cavern_2_1=Cavern.new(true,18,true,true,true,false) 
 		@cavern_2_2=Cavern.new(true,19,true,true,true,false)	
-		@cavern_2_3=Cavern.new(true,20,true,false,false,true)	
+		@cavern_2_3=Cavern.new(true,20,true,false,false,true) 
 		@cavern_2_4=Cavern.new(false,21,false,false,false,false)
 		@cavern_2_5=Cavern.new(true,22,false,true,true,true)	
 		@cavern_2_6=Cavern.new(true,23,true,true,true,true)
@@ -53,9 +53,8 @@ class Map
 		@cavern_4_4=Cavern.new(true,37,true,true,false,false)	
 		@cavern_4_5=Cavern.new(true,38,false,false,true,true)	
 		@cavern_4_6=Cavern.new(true,39,true,true,true,false)	
-		@cavern_4_7=Cavern.new(true,40,true,true,false,false)
-
-
+		@cavern_4_7=Cavern.new(true,40,true,true,false,false) 
+		
 		@cavern_5_0=Cavern.new(true,41,false,true,true,false)
 		@cavern_5_1=Cavern.new(true,42,true,false,true,false)
 		@cavern_5_2=Cavern.new(true,43,true,true,true,false)
@@ -64,9 +63,19 @@ class Map
 		@cavern_5_5=Cavern.new(true,46,true,true,false,false)
 		@cavern_5_6=Cavern.new(false,47,false,false,false,false)
 		@cavern_5_7=Cavern.new(false,48,false,false,false,false)
-
-		@caverns = [[@cavern_0_0, @cavern_0_1, @cavern_0_2, @cavern_0_3,  @cavern_0_4, @cavern_0_5, @cavern_0_6, @cavern_0_7], [@cavern_1_0, @cavern_1_1, @cavern_1_2, @cavern_1_3,  @cavern_1_4, @cavern_1_5, @cavern_1_6, @cavern_1_7], [@cavern_2_0, @cavern_2_1, @cavern_2_2, @cavern_2_3,  @cavern_2_4, @cavern_2_5, @cavern_2_6, @cavern_2_7], [@cavern_3_0, @cavern_3_1, @cavern_3_2, @cavern_3_3,  @cavern_3_4, @cavern_3_5, @cavern_3_6, @cavern_3_7], [@cavern_4_0, @cavern_4_1, @cavern_4_2, @cavern_4_3,  @cavern_4_4, @cavern_4_5, @cavern_4_6, @cavern_4_7], [@cavern_5_0, @cavern_5_1, @cavern_5_2, @cavern_5_3,  @cavern_5_4, @cavern_5_5, @cavern_5_6, @cavern_5_7]]
-
+		
+		@cavern_2_0.setArrowsCavern=0
+		@cavern_2_1.setArrowsCavern=0
+		@cavern_2_2.setArrowsCavern=0
+		@cavern_2_3.setArrowsCavern=0
+		@caverns = [
+			[@cavern_0_0, @cavern_0_1, @cavern_0_2, @cavern_0_3,  @cavern_0_4, @cavern_0_5, @cavern_0_6, @cavern_0_7], 
+			[@cavern_1_0, @cavern_1_1, @cavern_1_2, @cavern_1_3,  @cavern_1_4, @cavern_1_5, @cavern_1_6, @cavern_1_7], 
+			[@cavern_2_0, @cavern_2_1, @cavern_2_2, @cavern_2_3,  @cavern_2_4, @cavern_2_5, @cavern_2_6, @cavern_2_7], 
+			[@cavern_3_0, @cavern_3_1, @cavern_3_2, @cavern_3_3,  @cavern_3_4, @cavern_3_5, @cavern_3_6, @cavern_3_7], 
+			[@cavern_4_0, @cavern_4_1, @cavern_4_2, @cavern_4_3,  @cavern_4_4, @cavern_4_5, @cavern_4_6, @cavern_4_7], 
+			[@cavern_5_0, @cavern_5_1, @cavern_5_2, @cavern_5_3,  @cavern_5_4, @cavern_5_5, @cavern_5_6, @cavern_5_7]]
+		
 	end
 
 	
@@ -103,11 +112,15 @@ class Map
 	end
 
 	def reportMonsterIsNear
-		return "¡Olor extraño!,¡El monstruo está cerca!"
+		if(self.isTheMonsterNear==true) 
+			return "¡Olor extraño!,¡El monstruo está cerca!"  
+		else
+			return " "
+		end 
 	end
 
-	def reportMissArrow 
-		return "El lanzamiento de la flecha no impacto con el monstruo"  
+	def reportMissArrow
+			return "El lanzamiento de la flecha no impacto con el monstruo"
 	end
 		 
 	def hasAccessToNorth
@@ -247,27 +260,55 @@ class Map
 		return @caverns[@monster.getPos_x][@monster.getPos_y].getLeftAccess
 	end
 
-	
+	def isTheMonsterNearAtCorner
+		@posX=0
+		@posY=0
+		if(@player.getPos_x>@monster.getPos_x)
+			@posX=@player.getPos_x-@monster.getPos_x
+		elsif(@player.getPos_x<@monster.getPos_x)
+			@posX=@monster.getPos_x-@player.getPos_x
+		end
+		if(@player.getPos_y>@monster.getPos_y)
+			@posY=@player.getPos_y-@monster.getPos_y
+		elsif(@player.getPos_y<@monster.getPos_y)
+			@posY=@monster.getPos_y-@player.getPos_y
+		end
+		if(@posX==1 && @posY==1)
+			return true
+		end
+		return false
+	end
 
-	def isTheMonsterNear
-
-		
+	def isTheMonsterNear 
 			if (@player.getPos_x == @monster.getPos_x + 1 && @player.getPos_y == @monster.getPos_y)
 				return true
-			end
-	
+			end 
 			if (@player.getPos_y == @monster.getPos_y + 1 && @player.getPos_x == @monster.getPos_x)
 				return true
-			end
-		
-		
+			end 
 			if (@player.getPos_y == @monster.getPos_y - 1 && @player.getPos_x == @monster.getPos_x)
 				return true
-			end
-		
+			end 
 			if (@player.getPos_x == @monster.getPos_x - 1 && @player.getPos_y == @monster.getPos_y)
 				return true
 			end
+
+			if (@player.getPos_x == @monster.getPos_x + 2 && @player.getPos_y == @monster.getPos_y)
+				return true
+			end 
+			if (@player.getPos_y == @monster.getPos_y + 2 && @player.getPos_x == @monster.getPos_x)
+				return true
+			end 
+			if (@player.getPos_y == @monster.getPos_y - 2 && @player.getPos_x == @monster.getPos_x)
+				return true
+			end 
+			if (@player.getPos_x == @monster.getPos_x - 2 && @player.getPos_y == @monster.getPos_y)
+				return true
+			end
+			if(self.isTheMonsterNearAtCorner)
+				return true
+			end
+
 		return false
 	end
 
@@ -286,28 +327,10 @@ class Map
 
 	def moveTheMonsterToEast
 		@monster.moveToEast
-	end
-
-	def theMonsterKilledThePlayer
-		if (@monster.getPos_x == @player.getPos_x && @monster.getPos_y == @player.getPos_y)
-			return true
-		else
-			return false
-		end
-		
-	end
-
-	def thePlayerKilledTheMonster
-		if(@monster.getItsAlive==false)
-			return true
-		else
-			return false
-		end
-	end
-
+	end  
 
 	def monsterRandomMove
-		@random = 1 + rand(4)
+		@random = rand(0..4)
 
 		if (@random == 1)
 			if (self.monsterHasAccessToNorth == true)
@@ -358,5 +381,24 @@ class Map
 		end
 
 	end
+
+	def theMonsterKilledThePlayer
+		if (@monster.getPos_x == @player.getPos_x && @monster.getPos_y == @player.getPos_y)
+			return true
+		else
+			return false
+		end
+		
+	end
+
+	def thePlayerKilledTheMonster
+		if(@monster.getItsAlive==false)
+			return true
+		else
+			return false
+		end
+	end
+
+
 
 end

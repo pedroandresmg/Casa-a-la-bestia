@@ -24,7 +24,7 @@ end
 post '/gameCaverns' do
 	$partida = Map.new()
 	$jugada="move"
-	$moverMonstruo="monsterMove" 
+	$moverMonstruo="monsterDontMove" 
 	$monsterDeathByArrow=true  
 	$messageMonsterAlert = $partida.reportMonsterIsNear 
 	$posPlayer = $partida.reportPosicionPlayer 
@@ -42,12 +42,12 @@ post '/optionPlay' do
 	$jugada=params[:jugada]
 	@puntoCardinal=params[:puntoCardinal]
 	$moverMonstruo=params[:moverMonstruo]
-	$monsterDeathByArrow=true 
-
+	$monsterDeathByArrow=true  
 	if ($moverMonstruo == 'monsterMove')
 		$partida.monsterRandomMove
+		$monsterAlert = $partida.isTheMonsterNear 
 	end
-	
+
 	if ($jugada == 'arrow') 
 		if (@puntoCardinal == 'norte')
 			$partida.shootToNorth 
@@ -89,7 +89,7 @@ post '/optionPlay' do
 		erb :gameOver
 	elsif($partida.thePlayerKilledTheMonster == true)
 		erb :gameWin
-	else 
+	else  
 		$partida.collectArrow
 		$posPlayer = $partida.reportPosicionPlayer
 		$arrowPlayer= $partida.reportNumberArrows 
@@ -98,8 +98,7 @@ post '/optionPlay' do
 		$hasAccessToNorth = $partida.hasAccessToNorth
 		$hasAccessToEast = $partida.hasAccessToEast
 		$hasAccessToWest = $partida.hasAccessToWest
-		$hasAccessToSouth = $partida.hasAccessToSouth
-		$monsterAlert = $partida.isTheMonsterNear 
+		$hasAccessToSouth = $partida.hasAccessToSouth 
 		erb :gameCaverns
 	end
 

@@ -118,10 +118,12 @@ describe Map do
 		@game.shootToWest
 		@game.shootToWest
 		@game.moveToWest
-		@game.moveToWest
+		@game.collectArrow
 		@game.moveToWest
 		@game.collectArrow
-		expect(@game.getPlayer.getArrows()).to eq(4)
+		@game.moveToWest
+		@game.collectArrow
+		expect(@game.getPlayer.getArrows()).to eq(3)
 	end
 
 
