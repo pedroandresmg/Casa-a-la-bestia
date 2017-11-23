@@ -61,17 +61,6 @@ post '/optionPlay' do
 		if ($partida.thePlayerKilledTheMonster == false)
 			$monsterDeathByArrow=false 
 		end
-	elsif ($jugada == 'spray')
-		if (@puntoCardinal == 'norte')
-
-		elsif (@puntoCardinal == 'este')
-
-		elsif (@puntoCardinal == 'oeste')
-
-		else
-
-		end
-		$monsterDeathByArrow=true 
 	else
 		if (@puntoCardinal == 'norte')
 			$partida.moveToNorth 
