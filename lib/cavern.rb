@@ -8,14 +8,8 @@ class Cavern
 		@upAccess = upAccess
 		@rightAccess = rightAccess
 		@downAccess = downAccess
-		@pitAlert = false
-		@batAltert = false
-		@monsterAlert = false
 		@hasAPit = false
 		@Arrows = [0,1].sample 
-		@hasAnSpray = [true,false].sample
-		@hasThemonster = false
-
 	end 
 
 	def getItsActive
@@ -42,17 +36,6 @@ class Cavern
 		return @downAccess
 	end
 
-	def getPitAlert
-		return @pitAlert
-	end
-
-	def getBatAlert
-		return @batAltert
-	end
-
-	def getMonsterAlert
-		return @monsterAlert
-	end
 
 	def getHasAPit
 		return @hasAPit
@@ -62,10 +45,7 @@ class Cavern
 		return @Arrows
 	end
 
-	def getHasAnSpray
-		return @hasAnSpray
-	end
-
+	
 
 	def setItsActive=(w)
 		@itsActive = w
@@ -91,17 +71,6 @@ class Cavern
 		@downAccess = w 
 	end
 
-	def setPitAlert=(w)
-		@pitAlert = w 
-	end
-
-	def setBatAlert=(w)
-		@batAltert = w 
-	end
-
-	def setMonsterAlert=(w)
-		@monsterAlert = w 
-	end
 
 	def setHasAPit=(w)
 		@hasAPit = w 
@@ -111,20 +80,5 @@ class Cavern
 		@Arrows = w 
 	end
 
-	def setHasAnSpray=(w)
-		@hasAnSpray = w 
-	end
-
-
-
-	def getHasTheMonster
-		return @hasThemonster
-	end
-
-	def setHasTheMonster=(w)
-		@hasThemonster = w
-	end
-
-
-
+	
 end

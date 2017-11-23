@@ -103,6 +103,7 @@ class Map
 		@monster = w
 	end
 
+
 	def reportPosicionPlayer
 		return "Estas en la caverna "+@caverns[@player.getPos_x][@player.getPos_y].getNumberOfCavern.to_s
 	end
