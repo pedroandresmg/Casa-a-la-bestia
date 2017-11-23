@@ -8,7 +8,7 @@ Scenario:
 		And presiono el boton "MapaPredeterminado"
 		And selecciono la jugada "jugadaFlecha"
 		And presiono el boton "oeste" 
-		And deberia mostrar "Numero de flechas 2"
+		Then deberia mostrar "Numero de flechas 2"
  
 Scenario: 
 		Given visito la pagina de inicio

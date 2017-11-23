@@ -6,12 +6,12 @@ Scenario:
 		Given visito la pagina de inicio
 		And presiono el link "Jugar"
 		And presiono el boton "MapaPredeterminado"
-		When presiono el boton "salir"
-		Then visito la pagina de inicio				
+		And presiono el boton "salir"
+		Then deberia mostrar "Caza al Monstruo!"  			
 			
 Scenario: 
 		Given visito la pagina de inicio
 		And presiono el link "Jugar"
 		And presiono el boton "atras"
-		Then visito la pagina de inicio	
+		Then deberia mostrar "Caza al Monstruo!"
 
