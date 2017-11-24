@@ -217,6 +217,10 @@ describe Map do
 		expect(@game.monsterHasAccessToSouth()).to eq(false)
  	end
 
+ 	it "the player shouldnt kill the monster" do
+ 		expect(@game.thePlayerKilledTheMonster()).to eq(false)
+ 	end
+
 	it "the player should kill the monster shooting to the west" do
 		@game.shootToWest
 		expect(@game.thePlayerKilledTheMonster()).to eq(true)
@@ -254,5 +258,80 @@ describe Map do
 		expect(@game.theMonsterKilledThePlayer()).to eq(true)
 	end
 
+	it "the monster shouldnt kill the player" do 
+		expect(@game.theMonsterKilledThePlayer()).to eq(false)
+	end
 
+
+	it "the player shouldnt fall in a pit" do
+		expect(@game.thePlayerFallInAPit()).to eq(false)
+	end
+
+	it "the player should fall in a pit" do
+		@game.moveToSouth
+		@game.moveToEast
+		@game.moveToEast
+		@game.moveToNorth
+		@game.moveToEast
+		@game.moveToSouth
+		@game.moveToEast
+		expect(@game.thePlayerFallInAPit()).to eq(true)
+	end
+
+	it "the player shouldnt fell wind" do
+		expect(@game.isAPitNear()).to eq(false)
+	end
+
+	it "the player should fell wind to the north" do
+		@game.moveToSouth
+		@game.moveToEast
+		@game.moveToEast
+		@game.moveToNorth
+		@game.moveToEast
+		@game.moveToSouth
+		@game.moveToSouth
+		@game.moveToEast
+		expect(@game.isAPitNear()).to eq(true)
+	end
+
+	it "the player should fell wind to the south" do
+		@game.moveToSouth
+		@game.moveToEast
+		@game.moveToEast
+		@game.moveToNorth
+		@game.moveToEast
+		@game.moveToEast
+		expect(@game.isAPitNear()).to eq(true)
+	end
+
+	it "the player should fell wind to the east" do
+		@game.moveToSouth
+		@game.moveToEast
+		@game.moveToEast
+		@game.moveToNorth
+		@game.moveToEast
+		@game.moveToSouth
+		expect(@game.isAPitNear()).to eq(true)
+	end
+
+	it "the player should fell wind to the west" do
+		@game.moveToWest
+		@game.moveToWest
+		expect(@game.isAPitNear()).to eq(true)
+	end
+
+
+	it "should show that you fell the wind" do
+		@game.moveToSouth
+		@game.moveToEast
+		@game.moveToEast
+		@game.moveToNorth
+		@game.moveToEast
+		@game.moveToSouth
+		expect(@game.reportAPitNear()).to eq("¡Fuerte viento!,¡Un pozo está cerca!") 
+	end
+
+	it "should show that you dont fell the wind" do
+		expect(@game.reportAPitNear()).to eq(" ") 
+	end
 end

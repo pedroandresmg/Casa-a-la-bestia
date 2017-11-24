@@ -1,14 +1,14 @@
 class Cavern
 
 
-	def initialize(active, numberOfCavern, leftAccess, upAccess, rightAccess, downAccess)
+	def initialize(active, numberOfCavern, leftAccess, upAccess, rightAccess, downAccess, hasAPit)
 		@itsActive = active
 		@numberOfCavern = numberOfCavern
 		@leftAccess = leftAccess
 		@upAccess = upAccess
 		@rightAccess = rightAccess
 		@downAccess = downAccess
-		@hasAPit = false
+		@hasAPit = hasAPit
 		@Arrows = [0,1].sample 
 	end 
 

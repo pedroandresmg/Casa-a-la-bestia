@@ -34,6 +34,7 @@ post '/gameCaverns' do
 	$hasAccessToWest = $partida.hasAccessToWest
 	$hasAccessToSouth = $partida.hasAccessToSouth
 	$monsterAlert = $partida.isTheMonsterNear
+	$messagePitAlert = $partida.reportAPitNear
 	erb :gameCaverns  
 end  
  
@@ -75,14 +76,19 @@ post '/optionPlay' do
 	end 
 
 	if ($partida.theMonsterKilledThePlayer == true)
+		$messageWhyYouLost = "¡Has sido devorado por el Monstruo!"
 		erb :gameOver
 	elsif($partida.thePlayerKilledTheMonster == true)
 		erb :gameWin
+	elsif($partida.thePlayerFallInAPit == true)
+		$messageWhyYouLost = "¡Wooooooops! ¡Te caíste en un pozo!"
+		erb :gameOver
 	else  
 		$partida.collectArrow
 		$posPlayer = $partida.reportPosicionPlayer
 		$arrowPlayer= $partida.reportNumberArrows 
 		$messageMonsterAlert = $partida.reportMonsterIsNear
+		$messagePitAlert = $partida.reportAPitNear
 		$messageMissArrow=$partida.reportMissArrow
 		$hasAccessToNorth = $partida.hasAccessToNorth
 		$hasAccessToEast = $partida.hasAccessToEast
