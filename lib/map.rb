@@ -15,9 +15,9 @@ class Map
 		@cavern_0_2=Cavern.new(true,3,false,false,false,true,false)	
 		@cavern_0_3=Cavern.new(false,4,false,false,false,false,false)
 		@cavern_0_4=Cavern.new(false,5,false,false,false,false,false)
-		@cavern_0_5=Cavern.new(true,6,false,false,true,true,false)
+		@cavern_0_5=Cavern.new(true,6,false,false,true,true,true)
 		@cavern_0_6=Cavern.new(true,7,true,false,false,true,false)	
-		@cavern_0_7=Cavern.new(true,8,false,false,false,true,false)	
+		@cavern_0_7=Cavern.new(true,8,false,false,false,true,true)	
 
 		@cavern_1_0=Cavern.new(false,9,false,false,false,false,false)		
 		@cavern_1_1=Cavern.new(true,10,false,true,true,true,false)
